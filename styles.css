@@ -1,0 +1,405 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+  background: white!important;
+}
+.grid{
+  max-width: 100%!important;
+}
+.twelve_col{
+  width: 100%!important;
+}
+.ui-ncbimenu li.selected>a, .ui-ncbimenu>li a:hover {
+    background-color: #fff!important;
+}
+/*HEADER*/
+.universal_header{
+  height: 2.5em!important;
+  background-color: white!important;
+  /*background-color: #1ba1e2!important;*/
+  z-index: 99999999!important;
+}
+a{
+    font-family:'Roboto', sans-serif!important;
+}
+.header{
+  position: fixed!important;
+  /*top:50px!important;*/
+  width: 100%!important;
+  z-index: 99999999!important;
+}
+
+.search_form .jig-ncbiclearbutton-wrap {
+
+    border-radius: 7px!important;
+}
+div.header{
+
+}
+div[data-section=header]{
+  position: fixed!important;
+  top:0px!important;
+  width: 100%!important;
+
+  z-index: 99999999!important;
+
+
+}
+.header+div{
+
+}
+.header+input+div{
+margin-top: 120px!important;
+}
+.top + div{
+  margin-top: 130px!important;
+}
+.facet_hide {
+    display: block!important;
+    visibility: hidden!important;
+    height: 0px!important;
+}
+
+a.ui-ncbimenu-link-first > img[class=ncbi_logo]{
+  display: none;
+}
+
+ul.jig-ncbimenu a.topanchor {
+
+}
+ul.resources_list {
+    margin-left: 0em!important;
+    float: left;
+}
+.myncbi a {
+
+}
+.page > .container{
+  margin-top: 115px!important;
+}
+/*logo*/
+.res_logo h1 a{
+
+  font-family:'Roboto', sans-serif!important;
+  /*font-size: 20px!important;*/
+  font-weight: 300!important;
+  line-height: 32px!important;
+  margin: 0 0 14px!important;
+}
+.res_logo .res_tagline{
+display: none!important;
+}
+
+/*BODY*/
+/* unstable*/
+.col.last{
+  float:left!important;
+}
+
+/*TEXT ARTICLE*/
+h1.content-title {
+
+  font-family: 'Roboto', sans-serif!important;
+  font-size: 34px!important;
+  font-weight: 300!important;
+  line-height: 40px!important;
+  margin: 0 0 16px!important;
+}
+div.rprt_all  h1{
+
+  font-family: 'Roboto', sans-serif!important;
+  font-size: 34px!important;
+  font-weight: 300!important;
+  line-height: 40px!important;
+  margin: 0 0 16px!important;
+}
+h2.head {
+
+  font-family: 'Roboto', sans-serif!important;
+  font-size: 24px!important;
+  font-weight: 300!important;
+  line-height: 32px!important;
+  margin: 0 0 14px!important;
+}
+.abstr h3 {
+
+  font-family: 'Roboto', sans-serif!important;
+  font-size: 20px!important;
+  font-weight: 300!important;
+  line-height: 32px!important;
+  margin: 0 0 14px!important;
+}
+p {
+
+  font-family: 'Roboto', sans-serif!important;
+  font-size: 15px!important;
+  font-weight: 400!important;
+  line-height: 24px!important;
+  text-align: justify!important;
+  margin: 0 0 14px!important;
+  -webkit-hyphens: manual;
+  -moz-hyphens: manual;
+hyphens: manual;
+}
+a{
+  text-decoration: none!important;
+}
+a:hover{
+  text-decoration: underline!important;
+
+}
+sup{
+
+}
+#maincontent .links-box {
+
+    padding: 0.8em 0.6923em!important;
+    border-radius: 0px!important;
+
+    font-family: 'Roboto', sans-serif!important;
+    font-size: 15px!important;
+    font-weight: 400!important;
+    line-height: 24px!important;
+    text-align: justify!important;
+    margin: 0 0 14px!important;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+  hyphens: auto;
+}
+#maincontent .links-box a {
+
+  text-decoration: underline!important;
+}
+.bl-w-jtitle-over {
+
+ z-index: 100!important;
+
+}
+
+/*COLUMN RIGHT*/
+#rightcolumn {
+  position: fixed!important;
+  top: 0px!important;
+  height: 100vh!important;
+  max-width: 0px!important;
+  padding-left: 30px;
+  margin-top: 70px;
+  padding-top: 50px;
+  right: -30px!important;
+  padding-right: 30px!important;
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  overflow: hidden!important;
+  z-index: 999!important;
+
+}
+
+ #rightcolumn:hover{
+  right: 0px!important;
+    max-width: 100%!important;
+overflow: scroll!important;
+}
+
+.eight_col {
+    width: 80%!important;
+    padding-left: 8%!important;
+    /* padding-right: 60px; */
+}
+
+div#ajax-portlets > div:last-child{
+  display: none!important;
+}
+
+div#ajax-portlets > div:nth-last-of-type(2){
+  margin-bottom: 150px!important;
+}
+      /* pour gene */
+      .ten_col {
+          width: 95%!important;
+      }
+      .rprt-section-header {
+
+        border-bottom: 0px!important;
+        background-image: none!important;
+
+      }
+      .rprt-section-header h2 a{
+
+      }
+      #sidecontent_1_pullout{
+      top:140px!important;
+
+      }
+      .sidecontentpullout_local {
+
+        border-bottom-left-radius: 0px!important;
+        border-top-left-radius: 0px!important;
+      }
+
+
+.ctrl .portlet_head {
+
+font-family: Roboto;
+}
+.ctrl .portlet_title h3 {
+
+}
+.portlet {
+
+}
+
+.portlet h1, .portlet h2, .portlet h3, .portlet h4, .portlet h5, .portlet h6 {
+
+}
+
+
+
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 9999999999999999999; /* Sit on top */
+ /* Location of the box */
+    right: 0;
+    top:80px ;
+    width: 30%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+
+}
+
+/* Modal Content */
+.modal-content {
+    box-shadow: 0 8px 8px -6px #777!important;
+    margin: auto;
+    margin-right: 5px;
+    padding: 20px;
+
+    width: 80%;
+    z-index: 9999999999999999999;
+}
+
+/* The Close Button */
+.close {
+
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    z-index: 9999999999999999999;
+}
+
+.close:hover,
+.close:focus {
+
+    text-decoration: none;
+    cursor: pointer;
+}
+#myBtn{
+  position: fixed;
+  right:0;
+  z-index: 9999999999999999999999;
+  background: none;
+  border: none;
+
+  top:35px;
+}
+.fa-3x {
+    font-size: 25px!important;
+}
+
+div#colors{
+width: 100%!important;
+height: 100%!important;
+display: -webkit-flex!important; /* Safari */
+display: flex!important;
+}
+#colors div{
+  height: 30px!important;
+  width:30px!important;
+  margin-right: 15px;
+}
+#blue{
+  background-color: #1ba1e2;
+}
+#orange{
+  background-color: #ed9a1c;
+}
+#indigo{
+  background-color: #369;
+}
+#green{
+  background-color: #8BC34A;
+}
+
+/*ASSEMBLY*/
+.more_genome_data {
+    background: #f1f1f1!important;
+
+}
+
+
+
+
+head,title,body,section,nav,article,aside,h1,h2,h3,h4,h5,h6,hgroup,header,footer,address,p,hr,pre,blockquote,ol,ul,li,dl,dt,dd,figure,figcaption,div,a,em,strong,small,s,cite,q,dfn,abbr,data,time,code,var,samp,kbd,sub,sup,b,u,mark,ruby,rt,rp,bdi,bdo,span,br,wbr>ins,del,img,iframe,object,param,video,audio,source,track,canvas,map,area,svg,math,table,caption,colgroup,col,tbody,thead,tfoot,tr,td,th,form,fieldset,legend,label,input,button,select,datalist,optgroup,option,textarea,keygen,output,progress,meter,details,summary,command,menu{
+    font-family:'Roboto', sans-serif!important;
+}
+
+.bottom{
+  z-index: 99999!important;
+}
+#NCBIFooter_dynamic{
+    margin-top: 50px!important;
+    padding-top: 50px!important;
+}
+#footer-contents-right div {
+    margin-right: 10px!important;
+}
+.help_desk {
+    right: 10em!important;
+}
+/* SEARCH PAGES*/
+input:focus, textarea:focus {
+outline: none!important;
+  outline-offset: 0px!important;
+}
+select:focus{
+  outline: none!important;
+  outline-offset: 0px!important;
+}
+.list_term_text:focus {
+    -moz-box-shadow: none!important;
+    -webkit-box-shadow: none!important;
+    box-shadow:none!important;
+}
+.pagination .active {
+    border:none!important;
+    color: #369;
+}
+.filters .portlet_list li.filter_selected a {
+margin-left: 0px!important;
+}
+.pagination a:hover {
+    background-color: #fff!important;
+    color: #369!important;
+    border: none!important;
+}
+.rprt .supp .desc {
+    text-align: justify!important;
+    hyphens: manual!important;
+}
+.rprt .title {
+    font-family: 'Roboto', sans-serif!important;
+    font-size: 17px!important;
+    font-weight: 300!important;
+    margin: 0 0 14px!important;
+}
+.rprt{
+  margin: 0.5em 0 4em 0!important;
+}
+
+
+.search_form .ui-ncbiclearbutton-wrap a.reset {
+    margin-left: -10px!important;
+}

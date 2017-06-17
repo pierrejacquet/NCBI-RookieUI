@@ -1,0 +1,18 @@
+.Genome {
+    background-color: #ffffff!important;
+}
+
+.Aggr{
+margin-top: 50px!important;
+}
+div.Aggr {
+    background-color: #ffffff!important;
+  }
+  td.BPTableHEx {
+    background-color: #fff!important;
+    border: none!important;
+    border-top: 1px solide!important;
+  }
+  td.BPTableL, td.BPTableR, td.BPTableLEx, td.BPTableREx{
+border: 1px solid #ddd!important;
+  }

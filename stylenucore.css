@@ -1,0 +1,24 @@
+      .char-a {
+          color: #1F39FF!important;
+      }
+      .char-t {
+          color: #FF0063!important;
+      }
+      .char-c {
+          color: #498800!important;
+      }
+      .char-g {
+          color: #ffa805!important;
+      }
+      .ff_line{
+        font-size: initial!important;
+        font-weight: 550!important;
+      }
+      .rprtheader h1{
+        color: #375E97!important;
+        font-family: 'Roboto', sans-serif!important;
+        font-size: 25px!important;
+        font-weight: 300!important;
+        line-height: 40px!important;
+        margin: 0 0 16px!important;
+      }

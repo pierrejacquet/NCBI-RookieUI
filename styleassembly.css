@@ -1,0 +1,17 @@
+#summary h1 {
+
+    font-family: Roboto, sans-serif!important;
+    font-size: 25px!important;
+    font-weight: 300!important;
+    line-height: 40px!important;
+    margin: 0px 0px 16px !important;
+    margin: inherit!important;
+}
+
+.assembly_summary_new dt:before {
+    margin-bottom: 5px!important;
+}
+
+.asm_comment_visible{
+  text-align: justify;!important;
+}
