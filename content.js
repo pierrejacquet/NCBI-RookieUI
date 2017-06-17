@@ -2,10 +2,10 @@ var images = document.getElementsByTagName('img');
 //for (var i = 0, l = images.length; i < l; i++) {
 //  images[i].src = 'http://placekitten.com/' + images[i].width + '/' + images[i].height;
 //}
-var cssblue = '"chrome-extension://hfoeionmioniliegnplmafhfcjfhghhm/blue.css"';
-var cssorange = '"chrome-extension://hfoeionmioniliegnplmafhfcjfhghhm/orange.css"';
-var cssindigo = '"chrome-extension://hfoeionmioniliegnplmafhfcjfhghhm/indigo.css"';
-var cssgreen = '"chrome-extension://hfoeionmioniliegnplmafhfcjfhghhm/green.css"';
+var cssblue = '"chrome-extension://lnleofiagmgapdapkbglmedjffmngkck/blue.css"';
+var cssorange = '"chrome-extension://lnleofiagmgapdapkbglmedjffmngkck/orange.css"';
+var cssindigo = '"chrome-extension://lnleofiagmgapdapkbglmedjffmngkck/indigo.css"';
+var cssgreen = '"chrome-extension://lnleofiagmgapdapkbglmedjffmngkck/green.css"';
 if(localStorage.getItem('theme') !== null){
   var lclStorage = localStorage.getItem('theme')
 }
