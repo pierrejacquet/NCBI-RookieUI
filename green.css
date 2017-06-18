@@ -40,7 +40,10 @@ ul.jig-ncbimenu a.topanchor {
 }
 /*TEXT ARTICLE*/
 .myh1{
-  color: #086E78!important;  
+  color: #086E78!important;
+}
+#libtitle h1{
+    color: #086E78!important;
 }
 h1.content-title {
   color: #086E78!important;
@@ -119,6 +122,10 @@ border-color: #8BC34A !important;
 .portlet h1, .portlet h2, .portlet h3, .portlet h4, .portlet h5, .portlet h6 {
     color: #086E78!important;
 }
+.filters .portlet_list li.filter_selected a {
+    color: white!important;
+    background-color: #086E78!important;
+}
 .ctrl div.portlet_content {
     background-color: #ffffff!important;
     border: 1px solid #8BC34A!important;
@@ -177,3 +184,8 @@ a.toc-item{
 .meta-content h1{
     color: #086E78!important;
 }
+.gap2_box_top {
+    color: #fff!important;
+    border: 1px solid #a1a5a9!important;
+    background: #8bc34a!important;
+  }

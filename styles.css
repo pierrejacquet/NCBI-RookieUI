@@ -92,7 +92,7 @@ ul.resources_list {
   font-family:'Roboto', sans-serif!important;
   /*font-size: 20px!important;*/
   font-weight: 300!important;
-  line-height: 32px!important;
+  line-height: 25px!important;
   margin: 0 0 14px!important;
 }
 .res_logo .res_tagline{
@@ -417,4 +417,7 @@ margin-left: 0px!important;
 
 .ui-ncbiclearbutton-wrap {
 border:none!important;
+}
+.ncbi-alerts p{
+  background: #fff!important;
 }

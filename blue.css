@@ -31,7 +31,10 @@ color: #0d5082!important;
     color: #0d5082!important;
 }
 .myh1{
-  color: #1d95ed!important;  
+  color: #1d95ed!important;
+}
+#libtitle h1{
+    color: #1d95ed!important;
 }
 /*logo*/
 .res_logo h1 a{
@@ -113,7 +116,10 @@ border-color: #1ba1e2!important;
 .portlet {
     border-top: .4em solid #1ba1e2!important;
 }
-
+.filters .portlet_list li.filter_selected a {
+    color: white!important;
+    background-color: #F74288!important;
+}
 .portlet h1, .portlet h2, .portlet h3, .portlet h4, .portlet h5, .portlet h6 {
     color: #F74288!important;
 }
@@ -173,3 +179,8 @@ a.toc-item{
 .meta-content h1{
     color: #F74288!important;
 }
+.gap2_box_top {
+    color: #fff!important;
+    border: 1px solid #a1a5a9!important;
+    background: #1ba1e2!important;
+  }

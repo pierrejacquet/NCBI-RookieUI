@@ -37,6 +37,9 @@ ul.jig-ncbimenu a.topanchor {
 .myh1{
   color: #6C8AD5!important;
 }
+#libtitle h1{
+    color: #6C8AD5!important;
+}
 h1.content-title {
   color: #6C8AD5!important;
 }
@@ -110,7 +113,7 @@ border-color: #6C8AD5!important;
     color: #fff!important;
 }
 .portlet {
-    border-top: .4em solid #6C8AD5!important;
+    border-top: .4em solid #FFAD00!important;
 }
 
 .portlet h1, .portlet h2, .portlet h3, .portlet h4, .portlet h5, .portlet h6 {
@@ -119,6 +122,10 @@ border-color: #6C8AD5!important;
 .ctrl div.portlet_content {
     background-color: #ffffff!important;
     border: 1px solid #466FD5!important;
+}
+.filters .portlet_list li.filter_selected a {
+    color: white!important;
+    background-color: #466FD5!important;
 }
 /* Modal Content */
 .modal-content {
@@ -172,3 +179,8 @@ a.toc-item{
 .meta-content h1{
     color: #466FD5!important;
 }
+.gap2_box_top {
+    color: #fff!important;
+    border: 1px solid #a1a5a9!important;
+    background: #FFAD00!important;
+  }
