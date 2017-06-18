@@ -30,7 +30,9 @@ color: #0d5082!important;
 .myncbi a {
     color: #0d5082!important;
 }
-
+.myh1{
+  color: #1d95ed!important;  
+}
 /*logo*/
 .res_logo h1 a{
   color: #1d95ed!important;
@@ -163,5 +165,11 @@ select{
   color:#F74288!important;
 }
 .portlet .portlet_section_header {
+    color: #F74288!important;
+}
+a.toc-item{
+    color: #086E78!important;
+}
+.meta-content h1{
     color: #F74288!important;
 }

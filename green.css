@@ -39,6 +39,9 @@ ul.jig-ncbimenu a.topanchor {
     color: #086E78!important;
 }
 /*TEXT ARTICLE*/
+.myh1{
+  color: #086E78!important;  
+}
 h1.content-title {
   color: #086E78!important;
 }
@@ -166,5 +169,11 @@ select{
 }
 
 .portlet .portlet_section_header {
+    color: #086E78!important;
+}
+a.toc-item{
+    color: #086E78!important;
+}
+.meta-content h1{
     color: #086E78!important;
 }

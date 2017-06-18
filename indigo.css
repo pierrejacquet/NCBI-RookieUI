@@ -36,6 +36,9 @@ ul.jig-ncbimenu a.topanchor {
 .firsttier_portlet h1, .firsttier_portlet h2, .firsttier_portlet h3, .firsttier_portlet h4, .firsttier_portlet h5, .firsttier_portlet h6 {
     color: #F90B6D!important;
 }
+.myh1{
+  color: #375E97!important;  
+}
 /*TEXT ARTICLE*/
 h1.content-title {
   color: #375E97!important;
@@ -160,5 +163,11 @@ select{
   color:#F74288!important;
 }
 .portlet .portlet_section_header {
+    color: #F74288!important;
+}
+a.toc-item{
+    color: #086E78!important;
+}
+.meta-content h1{
     color: #F74288!important;
 }
