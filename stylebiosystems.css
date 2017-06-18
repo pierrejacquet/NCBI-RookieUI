@@ -1,3 +1,4 @@
-div #bslinks{
-  width: 101%!important;
+.x-panel{
+  width: 100%!important;
+  overflow-x: hidden!important;
 }

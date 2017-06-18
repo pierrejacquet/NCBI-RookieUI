@@ -160,3 +160,6 @@ select{
 .filters p strong{
   color:#466FD5!important;
 }
+.portlet .portlet_section_header {
+    color: #466FD5!important;
+}

@@ -414,3 +414,7 @@ margin-left: 0px!important;
 .search_form .ui-ncbiclearbutton-wrap a.reset {
     margin-left: -10px!important;
 }
+
+.ui-ncbiclearbutton-wrap {
+border:none!important;
+}

@@ -44,6 +44,11 @@
     "matches": ["https://www.ncbi.nlm.nih.gov/biosystems/*"],
     "css": ["styles.css","stylebiosystems.css","font-awesome.min.css"],
     "js": ["jquery-3.2.1.min.js","content.js"]
+  },
+  {
+    "matches": ["https://www.ncbi.nlm.nih.gov/books/*"],
+    "css": ["styles.css","stylebooks.css","font-awesome.min.css"],
+    "js": ["jquery-3.2.1.min.js","content.js"]
   }
 ],
   "permissions": ["tabs", "<all_urls>","http://*/","http://example.com/"],

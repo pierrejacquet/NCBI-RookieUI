@@ -1,0 +1,10 @@
+.x-panel{
+  width: 100%!important;
+  overflow-x: hidden!important;
+}
+#rightcolumn .portlet_shutter{
+width: 0px!important;
+}
+#rightcolumn:hover .portlet_shutter{
+width: 15px!important;
+}

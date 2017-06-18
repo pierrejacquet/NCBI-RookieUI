@@ -164,3 +164,7 @@ select{
 .filters p strong{
   color:#086E78!important;
 }
+
+.portlet .portlet_section_header {
+    color: #086E78!important;
+}
