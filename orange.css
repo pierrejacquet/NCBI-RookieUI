@@ -82,7 +82,9 @@ sup{
 }
 
       /* pour gene */
-
+      .adtermtext {
+      color: #6C8AD5!important;
+      }
       .rprt-section-header {
         background: #6C8AD5!important;
         box-shadow: 0 7px 6px -6px #777!important;

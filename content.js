@@ -14,6 +14,8 @@ else {
 }
 $('head').append(' <link id="theme" rel="stylesheet" href='+lclStorage+'>');
 $('head').append('<script src="https://use.fontawesome.com/cfc9e58898.js"></script>');
+//CREATE A MIN HEIGHT DIV TO PUSH CONTENT UNDER NAVBAR
+$('.header').after('<div style="height:120px; width:100%; background:white; clear:both;"></div>');
 $('body').append('<button id="myBtn"><i class="fa fa-cogs fa-3x" aria-hidden="true"></i></button>');
 $('body').append('<div id="myModal" class="modal"><div class="modal-content"><span class="close">&times;</span><p>Theme:</p><div id="colors"><br><div class="box"id="blue" data-theme='+cssblue+'></div><div class="box"id="orange" data-theme='+cssorange+'></div><div class="box"id="indigo" data-theme='+cssindigo+'></div><div class="box"id="green" data-theme='+cssgreen+'></div></div></div></div>');
 

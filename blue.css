@@ -24,7 +24,9 @@ div[data-section=header]{
 ul.jig-ncbimenu a.topanchor {
     color: #0d5082!important;
 }
-
+.adtermtext {
+color: #0d5082!important;
+}
 .myncbi a {
     color: #0d5082!important;
 }

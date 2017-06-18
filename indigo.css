@@ -9,6 +9,9 @@
 .search_form .jig-ncbiclearbutton-wrap > input {
     border: none!important;
 }
+.adtermtext {
+color: #F90B6D!important;
+}
 div.header{
 box-shadow: 0 10px 6px -6px #777!important;
 border-bottom: 5px solid #369;

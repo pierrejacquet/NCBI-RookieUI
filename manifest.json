@@ -34,6 +34,16 @@
     "matches": ["https://www.ncbi.nlm.nih.gov/bioproject/*"],
     "css": ["styles.css","stylebioproject.css","font-awesome.min.css"],
     "js": ["jquery-3.2.1.min.js","content.js"]
+  },
+  {
+    "matches": ["https://www.ncbi.nlm.nih.gov/biosample/*"],
+    "css": ["styles.css","stylebiosample.css","font-awesome.min.css"],
+    "js": ["jquery-3.2.1.min.js","content.js"]
+  },
+  {
+    "matches": ["https://www.ncbi.nlm.nih.gov/biosystems/*"],
+    "css": ["styles.css","stylebiosystems.css","font-awesome.min.css"],
+    "js": ["jquery-3.2.1.min.js","content.js"]
   }
 ],
   "permissions": ["tabs", "<all_urls>","http://*/","http://example.com/"],
