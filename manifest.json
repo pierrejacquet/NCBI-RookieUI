@@ -54,8 +54,16 @@
     "matches": ["https://www.ncbi.nlm.nih.gov/genome/*"],
     "css": ["styles.css","stylegenome.css","font-awesome.min.css"],
     "js": ["jquery-3.2.1.min.js","content.js"]
+  },
+  {
+    "matches": ["https://www.ncbi.nlm.nih.gov/gtr/*"],
+    "css": ["styles.css","stylegtr.css","font-awesome.min.css"],
+    "js": ["jquery-3.2.1.min.js","content.js"]
   }
 ],
   "permissions": ["tabs", "<all_urls>","http://*/","http://example.com/"],
-  "web_accessible_resources": ["jquery-3.2.1.min.js","content.js","blue.css","orange.css","indigo.css","green.css"]
+  "web_accessible_resources": ["jquery-3.2.1.min.js","content.js","blue.css","orange.css","indigo.css","green.css","ROOKIEMAX.png"],
+  "icons": { "16": "ROOKIE16.png",
+           "48": "ROOKIE48.png",
+          "128": "ROOKIE128.png" }
 }

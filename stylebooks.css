@@ -19,3 +19,10 @@ h1{
   font-weight: 300!important;
   margin: 0 0 16px!important;
 }
+.rsltimg{
+zoom: 1.4!important;
+padding-right: 15px!important;
+}
+.rsltimg img{
+    border: #cacaca solid 1px!importants;
+  }

@@ -466,7 +466,7 @@ margin-left: 0px!important;
 /*!SEARCH RESULTS*/
 
 .search_form .ui-ncbiclearbutton-wrap a.reset {
-    margin-left: -10px!important;
+    margin-left: -15px!important;
 }
 
 .ui-ncbiclearbutton-wrap {
@@ -475,3 +475,8 @@ border:none!important;
 .ncbi-alerts p{
   background: #fff!important;
 }
+.rookieui{
+    width: 40px;
+    height: auto;
+    display: block;
+  }
