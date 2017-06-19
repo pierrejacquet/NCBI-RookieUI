@@ -43,6 +43,9 @@ z-index: 999999!important
 .ui-front {
     z-index: 9999999!important;
 }
+.ui-ncbiautocomplete-holder{
+      z-index: 9999999!important;
+}
 div[data-section=header]{
   position: fixed!important;
   top:0px!important;
@@ -375,6 +378,9 @@ code, kbd, pre, samp {
 .help_desk {
     right: 10em!important;
 }
+.help{
+  margin-top: 5px!important;
+}
 /* SEARCH PAGES*/
 input:focus, textarea:focus {
 outline: none!important;
@@ -429,7 +435,7 @@ margin-left: 0px!important;
     margin: 0 0 14px!important;
 }
 
-.rprt:not(tr) {
+.rprt:not(tr):not(.abstract) {
     overflow: hidden;
     _overflow: none;
     margin: 0.5em 0 4em 0!important;
@@ -444,7 +450,7 @@ margin-left: 0px!important;
     box-shadow: -3px 8px 8px -6px #777!important;
     transition: all .2s ease-in-out;
 }
-.rprt:not(tr):hover {
+.rprt:not(tr):not(.abstract):hover {
   -webkit-transform: scale(0.98);
   -ms-transform: scale(0.98);
   transform: scale(0.98);

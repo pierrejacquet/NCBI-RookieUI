@@ -63,6 +63,12 @@ h2.head {
 .abstr h3 {
   color: #086E78!important;
 }
+.heading4{
+    color: #63942b!important;
+}
+.graybannertext{
+  color: #086E78!important;
+}
 p {
   color: #222!important;
 }
@@ -211,4 +217,8 @@ a.toc-item{
   .GenomeList2 th {
       background-color: #8bc34a!important;
       color: white!important;
+  }
+  /*medgen*/
+  .MedGenTitleText{
+      color:#086E78!important;
   }

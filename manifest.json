@@ -59,6 +59,11 @@
     "matches": ["https://www.ncbi.nlm.nih.gov/gtr/*"],
     "css": ["styles.css","stylegtr.css","font-awesome.min.css"],
     "js": ["jquery-3.2.1.min.js","content.js"]
+  },
+  {
+    "matches": ["https://www.ncbi.nlm.nih.gov/medgen/*"],
+    "css": ["styles.css","stylemedgen.css","font-awesome.min.css"],
+    "js": ["jquery-3.2.1.min.js","content.js"]
   }
 ],
   "permissions": ["tabs", "<all_urls>","http://*/","http://example.com/"],

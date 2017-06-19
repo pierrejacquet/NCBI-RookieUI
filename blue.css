@@ -60,6 +60,12 @@ h2.head {
 .abstr h3 {
   color: #F90B6D!important;
 }
+.heading4{
+  color: #0068b5!important;
+}
+.graybannertext{
+  color: #F90B6D!important;
+}
 p {
   color: #222!important;
 }
@@ -216,4 +222,9 @@ span.section_title{
 .GenomeList2 th {
     background-color: #1d95ed!important;
     color: white!important;
+}
+
+/*medgen*/
+.MedGenTitleText{
+    color:#1ba1e2!important;
 }
