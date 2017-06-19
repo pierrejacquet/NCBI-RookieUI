@@ -66,6 +66,9 @@ h2.head {
 p {
   color: #222!important;
 }
+p.title a {
+  color: #086E78!important;
+}
 a{
     color: #63942b!important;
 }
@@ -188,4 +191,24 @@ a.toc-item{
     color: #fff!important;
     border: 1px solid #a1a5a9!important;
     background: #8bc34a!important;
+  }
+  .seqviewer .rprtheader h1{
+    color:#8bc34a!important;
+  }
+  pre b{
+      color:#086E78!important;
+  }
+  .ui-ncbigrid-outer-div {
+      border: 1px solid #8bc34a!important;
+  }
+  b{
+    color:#086E78!important;
+  }
+  span.section_title{
+        color:#086E78!important;
+  }
+  /*GENOME*/
+  .GenomeList2 th {
+      background-color: #8bc34a!important;
+      color: white!important;
   }

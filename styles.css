@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
 
 body {
   background: white!important;
@@ -80,8 +81,8 @@ ul.resources_list {
     margin-left: 0em!important;
     float: left;
 }
-.myncbi a {
-
+a.page_nav {
+    border-bottom:none!important;
 }
 /*.page > .container{
   margin-top: 115px!important;
@@ -227,9 +228,7 @@ div#ajax-portlets > div:nth-last-of-type(2){
   margin-bottom: 150px!important;
 }
       /* pour gene */
-      .ten_col {
-          width: 95%!important;
-      }
+
       .rprt-section-header {
 
         border-bottom: 0px!important;
@@ -353,9 +352,15 @@ display: flex!important;
 
 
 
-head,title,body,section,nav,article,aside,h1,h2,h3,h4,h5,h6,hgroup,header,footer,address,p,hr,blockquote,ol,ul,li,dl,dt,dd,figure,figcaption,div,a,em,strong,small,s,cite,q,dfn,abbr,data,time,code,var,samp,kbd,sub,sup,b,u,mark,ruby,rt,rp,bdi,bdo,br,wbr>ins,del,img,iframe,object,param,video,audio,source,track,canvas,map,area,svg,math,table,caption,colgroup,col,tbody,thead,tfoot,tr,td,th,form,fieldset,legend,label,input,button,select,datalist,optgroup,option,textarea,keygen,output,progress,meter,details,summary,command,menu{
+head,title,body,section,nav,article,aside,h1,h2,h3,h4,h5,h6,hgroup,header,footer,address,p,hr,blockquote,ol,ul,li,dl,dt,dd,figure,figcaption,div,a,em,strong,small,s,cite,q,dfn,abbr,data,time,var,sub,sup,b,u,mark,ruby,rt,rp,bdi,bdo,br,wbr>ins,del,img,iframe,object,param,video,audio,source,track,canvas,map,area,svg,math,table,caption,colgroup,col,tbody,thead,tfoot,tr,td,th,form,fieldset,legend,label,input,button,select,datalist,optgroup,option,textarea,keygen,output,progress,meter,details,summary,command,menu{
     font-family:'Roboto', sans-serif!important;
 }
+code, kbd, pre, samp {
+    font-family: "Roboto Mono", monospace!important;
+    font-size: 1em;
+}
+
+
 
 .bottom{
   z-index: 99999!important;
@@ -375,10 +380,27 @@ input:focus, textarea:focus {
 outline: none!important;
   outline-offset: 0px!important;
 }
+input{
+    margin: 3px!important;
+}
 select:focus{
   outline: none!important;
   outline-offset: 0px!important;
 }
+
+/*SEARCH RESULTS*/
+.supp .details{
+margin-top: 6px!important;
+}
+.supp .details:last-of-type{
+margin-top: 6px!important;
+margin-bottom: 6px!important;
+}
+.rprt .aux, .rprt .aux p, .rprt .aux dl {
+    margin-top: 10px!important;
+}
+
+
 .list_term_text:focus {
     -moz-box-shadow: none!important;
     -webkit-box-shadow: none!important;
@@ -406,10 +428,42 @@ margin-left: 0px!important;
     font-weight: 300!important;
     margin: 0 0 14px!important;
 }
-.rprt{
-  margin: 0.5em 0 4em 0!important;
+
+.rprt:not(tr) {
+    overflow: hidden;
+    _overflow: none;
+    margin: 0.5em 0 4em 0!important;
+    padding: 5px;
+    zoom: 1;
+    display: block;
+    clear: both;
+    min-height: 40px;
+    height: auto !important;
+    height: 40px;
+    border: 1px solid rgba(185, 185, 185, 0.33)!important;
+    box-shadow: -3px 8px 8px -6px #777!important;
+    transition: all .2s ease-in-out;
+}
+.rprt:not(tr):hover {
+  -webkit-transform: scale(0.98);
+  -ms-transform: scale(0.98);
+  transform: scale(0.98);
+  transition: all .2s ease-in-out;
+}
+.rprt .rprtnum{
+      margin-top: 10px!important;
+      margin-left: 5px!important;
+
+}
+.rprt .rslt{
+      margin-top: 10px!important;
+      margin-right: 5px!important;
 }
 
+.rprtnum span{
+  margin-left: 5px!important;
+}
+/*!SEARCH RESULTS*/
 
 .search_form .ui-ncbiclearbutton-wrap a.reset {
     margin-left: -10px!important;

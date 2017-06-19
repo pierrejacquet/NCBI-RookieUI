@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
       .char-a {
           color: #1F39FF!important;
       }
@@ -11,7 +12,9 @@
           color: #ffa805!important;
       }
       .ff_line{
-
+        font-size: initial!important;
+        font-weight: 550!important;
+        font-family:'Roboto Mono', monospace!important;
       }
       .rprtheader h1{
         color: #375E97!important;
@@ -21,3 +24,7 @@
         line-height: 40px!important;
         margin: 0 0 16px!important;
       }
+
+.seqrprt.seqviewer{
+      margin-left: 20px!important;
+}
