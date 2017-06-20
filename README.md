@@ -9,14 +9,14 @@ Then discover a new look on the NCBI website.
 Many thanks to the Bioinfo-fr community.
 Please give me some advices to develop this project.
 
-:TO-DO:
--SNP
--SPARCLE
--SRA
--Structure
--Taxonomy
--ToolKit
--ToolKitAll
--ToolKitBook
--ToolKitBookgh
--Unigene
+TO-DO
+-SNP<br>
+-SPARCLE<br>
+-SRA<br>
+-Structure<br>
+-Taxonomy<br>
+-ToolKit<br>
+-ToolKitAll<br>
+-ToolKitBook<br>
+-ToolKitBookgh<br>
+-Unigene<br>
