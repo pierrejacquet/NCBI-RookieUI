@@ -1,0 +1,9 @@
+.masthead p a{
+color: white!important;
+}
+.localnav ul li a{
+  color:white!important;
+}
+.portlet:first-of-type{
+  margin-top: 50px!important;
+}

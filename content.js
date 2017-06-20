@@ -67,8 +67,16 @@ $('.close').click();
 });
 
 
+//SEARCH EFFECT
+$(document).ready(function() {
+if (window.location.href.indexOf("?term=") > -1) {
+$(".rprt").addClass("searchbump");
+}
+});
 
 
+
+//COLOR NUC
 var clic = 0;
 $(document).on('click', "h1", function () {
 if(clic == 0){

@@ -51,6 +51,9 @@ h1.content-title {
 div.rprt_all  h1{
   color: #086E78!important;
 }
+#detail_div h1{
+    color: #086E78!important;
+}
 h2{
     color: #086E78!important;
 }

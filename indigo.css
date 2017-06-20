@@ -49,6 +49,9 @@ h1.content-title {
 div.rprt_all  h1{
   color: #375E97!important;
 }
+#detail_div h1{
+    color: #375E97!important;
+}
 h2{
     color: #1ba1e2!important;
 }
