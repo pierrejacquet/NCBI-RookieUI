@@ -51,6 +51,9 @@ div.rprt_all  h1{
 #detail_div h1{
     color: #375E97!important;
 }
+h1{
+    color: #375E97!important;
+}
 h2{
     color: #F90B6D!important;
 }
@@ -59,6 +62,9 @@ h3{
 }
 h2.head {
   color: #F90B6D!important;
+}
+caption{
+    color: #F90B6D!important;
 }
 .abstr h3 {
   color: #F90B6D!important;

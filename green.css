@@ -51,6 +51,9 @@ h1.content-title {
 div.rprt_all  h1{
   color: #086E78!important;
 }
+h1{
+    color: #63942b!important;
+}
 #detail_div h1{
     color: #086E78!important;
 }
@@ -63,11 +66,14 @@ h3{
 h2.head {
   color: #086E78!important;
 }
+caption{
+    color: #086E78!important;
+}
 .abstr h3 {
   color: #086E78!important;
 }
 .heading4{
-    color: #63942b!important;
+    color: #086E78!important;
 }
 .graybannertext{
   color: #086E78!important;

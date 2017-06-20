@@ -69,6 +69,16 @@
     "matches": ["https://www.ncbi.nlm.nih.gov/pubmedhealth/*"],
     "css": ["styles.css","stylepubmedhealth.css","font-awesome.min.css"],
     "js": ["jquery-3.2.1.min.js","content.js"]
+  },
+  {
+    "matches": ["https://www.ncbi.nlm.nih.gov/gquery/*"],
+    "css": ["styles.css","stylegquery.css","font-awesome.min.css"],
+    "js": ["jquery-3.2.1.min.js","content.js"]
+  },
+  {
+    "matches": ["https://www.ncbi.nlm.nih.gov/IEB/ToolBox/*"],
+    "css": ["styles.css","styletoolkit.css","font-awesome.min.css"],
+    "js": ["jquery-3.2.1.min.js","content.js"]
   }
 ],
   "permissions": ["tabs", "<all_urls>","http://*/","http://example.com/"],

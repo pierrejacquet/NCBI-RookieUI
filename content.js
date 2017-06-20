@@ -70,7 +70,7 @@ $('.close').click();
 //SEARCH EFFECT
 $(document).ready(function() {
 if (window.location.href.indexOf("?term=") > -1) {
-$(".rprt").addClass("searchbump");
+$(".rprt:not(tr)").addClass("searchbump");
 }
 });
 

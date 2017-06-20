@@ -483,6 +483,8 @@ div.makeBox>div.rprt{
 .rprt .rslt{
       margin-top: 10px!important;
       margin-right: 5px!important;
+      margin-bottom: 10px!important;
+      margin-left: 5px!important;
 }
 
 .rprtnum span{

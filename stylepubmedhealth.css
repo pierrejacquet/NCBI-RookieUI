@@ -4,6 +4,12 @@ color: white!important;
 .localnav ul li a{
   color:white!important;
 }
-.portlet:first-of-type{
-  margin-top: 50px!important;
+#toolbar{
+  z-index: 99999999999!important;
+}
+#rightcolumn .col6{
+  margin-top: 20px!important;
+}
+#rightcolumn{
+  margin-top: 70px!important;
 }
