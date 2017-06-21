@@ -1,0 +1,10 @@
+table.TEXT{
+  background-color: #fff!important;
+}
+*[bgcolor="#CCCCCC"]{
+background-color: #f5f5f5!important;
+}
+.PortletBox{
+border: 1px solid rgba(185, 185, 185, 0.33);
+box-shadow: -3px 8px 8px -6px #777;
+}

@@ -60,6 +60,10 @@ h2{
 h3{
     color: #F90B6D!important;
 }
+.H4{
+    color: #F90B6D!important;
+}
+
 h2.head {
   color: #F90B6D!important;
 }
@@ -235,5 +239,33 @@ span.section_title{
 
 /*medgen*/
 .MedGenTitleText{
-    color:#1ba1e2!important;
+    color:#1d95ed!important;
+}
+/*Structure*/
+.biotext{
+        color:#F74288!important;
+}
+.title-cd-name{
+      color:#F74288!important;
+}
+
+/* A TESTER */
+td[bgcolor="#cccccc"]{
+    background-color: #1d95ed!important;
+    color:white!important;
+}
+td[bgcolor="#ccccff"]{
+    background-color: #1d95ed!important;
+    color:white!important;
+}
+
+.EntryTitle{
+  color:#F74288!important;
+}
+.PortletTitle{
+    color:#F74288!important;
+}
+
+.creditPJ{
+  color:#1d95ed!important;
 }

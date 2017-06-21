@@ -276,8 +276,8 @@ font-family: Roboto;
     right: 0;
     top:80px ;
     width: 30%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
+    height: 250px; /* Full height */
+    overflow: hidden; /* Enable scroll if needed */
 
 }
 
@@ -314,15 +314,21 @@ font-family: Roboto;
   background: none;
   border: none;
 
-  top:35px;
+    top:35px;
+
+    background-color: white;
+    padding:2px;
+}
+#myBtn:focus{
+outline: none !important;
 }
 .fa-3x {
     font-size: 25px!important;
 }
 
 div#colors{
-width: 100%!important;
-height: 100%!important;
+width: 180px!important;
+height: 30px!important;
 display: -webkit-flex!important; /* Safari */
 display: flex!important;
 }
@@ -330,6 +336,9 @@ display: flex!important;
   height: 30px!important;
   width:30px!important;
   margin-right: 15px;
+}
+#colors .box{
+padding: 0px!important;
 }
 #blue{
   background-color: #1ba1e2;
@@ -377,7 +386,10 @@ code, kbd, pre, samp {
     right: 10em!important;
 }
 .help{
-  margin-top: 5px!important;
+  position: fixed;
+  top: 50px;
+  right: 5px;
+  margin-right: 0px!important;
 }
 /* SEARCH PAGES*/
 input:focus, textarea:focus {
@@ -458,7 +470,7 @@ div.makeBox>div.rprt{
       overflow: hidden;
     _overflow: none;
     margin: 0.5em 0 4em 0!important;
-    padding: 5px;
+    padding: 10px!important;
     zoom: 1;
     display: block;
     clear: both;
@@ -507,3 +519,24 @@ border:none!important;
     height: auto;
     display: block;
   }
+  .mmdb-search-holder {
+      border: 0px solid #fff!important;
+  }
+#div0_viewer{
+  background-color: white!important;
+}
+
+td[background="/coreweb/template1/pix/top3_mainmenu_mid_bg.gif"]{
+background-image: none!important;
+}
+.dbheader .headerintro h1{
+  color: white!important;
+}
+
+.creditPJ{
+margin-top: 30px!important;
+font-style: italic;
+font-size: 10px!important;
+text-align: right!important;
+line-height: 15px!important;
+}

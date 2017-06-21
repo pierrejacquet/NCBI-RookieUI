@@ -4,7 +4,11 @@
   "name": "NCBI Rookie UI",
   "version": "0.1.0",
   "description": "A new fresh style for NCBI website",
-
+  "author": "Pierre JACQUET",
+  "page_action": {
+     "default_icon": "ROOKIE16.png"
+   },
+  "homepage_url": "https://github.com/pierrejacquet/NCBI-RookieUI",
   "content_scripts": [{
     "css": ["styles.css","font-awesome.min.css"],
     "js": ["jquery-3.2.1.min.js","content.js"],
@@ -83,6 +87,31 @@
   {
     "matches": ["https://www.ncbi.nlm.nih.gov/projects/SNP/*"],
     "css": ["styles.css","styleSNP.css","font-awesome.min.css"],
+    "js": ["jquery-3.2.1.min.js","content.js"]
+  },
+  {
+    "matches": ["https://www.ncbi.nlm.nih.gov/Structure/sparcle/*"],
+    "css": ["styles.css","stylesparcle.css","font-awesome.min.css"],
+    "js": ["jquery-3.2.1.min.js","content.js"]
+  },
+  {
+    "matches": ["https://www.ncbi.nlm.nih.gov/sra/*"],
+    "css": ["styles.css","stylesra.css","font-awesome.min.css"],
+    "js": ["jquery-3.2.1.min.js","content.js"]
+  },
+  {
+    "matches": ["https://www.ncbi.nlm.nih.gov/structure/*","https://www.ncbi.nlm.nih.gov/Structure/pdb/*"],
+    "css": ["styles.css","styleStructure.css","font-awesome.min.css"],
+    "js": ["jquery-3.2.1.min.js","content.js"]
+  },
+  {
+    "matches": ["https://www.ncbi.nlm.nih.gov/Taxonomy/*"],
+    "css": ["styles.css","styletaxonomy.css","font-awesome.min.css"],
+    "js": ["jquery-3.2.1.min.js","content.js"]
+  },
+  {
+    "matches": ["https://www.ncbi.nlm.nih.gov/UniGene/*"],
+    "css": ["styles.css","styleunigene.css","font-awesome.min.css"],
     "js": ["jquery-3.2.1.min.js","content.js"]
   }
 ],

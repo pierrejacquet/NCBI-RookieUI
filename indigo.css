@@ -70,6 +70,9 @@ caption{
 .abstr h3 {
   color: #1ba1e2!important;
 }
+.H4{
+    color: #1ba1e2!important;
+}
 .heading4{
   color: #375E97!important;
 }
@@ -224,4 +227,33 @@ a.toc-item{
   /*medgen*/
   .MedGenTitleText{
       color:#369!important;
+  }
+
+  /*Structure*/
+  .biotext{
+          color:#1ba1e2!important;
+  }
+  .title-cd-name{
+        color:#369!important;
+  }
+
+  /* A TESTER */
+  td[bgcolor="#cccccc"]{
+      background-color: #369!important;
+      color:white!important;
+  }
+  td[bgcolor="#ccccff"]{
+      background-color: #369!important;
+      color:white!important;
+  }
+
+  .EntryTitle{
+    color:#1ba1e2!important;
+  }
+  .PortletTitle{
+      color:#1ba1e2!important;
+  }
+
+  .creditPJ{
+    color:#369!important;
   }
