@@ -507,7 +507,9 @@ div.makeBox>div.rprt{
 .search_form .ui-ncbiclearbutton-wrap a.reset {
     margin-left: -15px!important;
 }
-
+.search_form button.button_search {
+    font-weight: 400!important;
+}
 .ui-ncbiclearbutton-wrap {
 border:none!important;
 }
