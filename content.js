@@ -24,14 +24,7 @@ else{
 $('body').append('<button id="myBtn"><img src="chrome-extension://lnleofiagmgapdapkbglmedjffmngkck/ROOKIEMAX.png" class="rookieui"></img></button>');
 $('body').append('<div id="myModal" class="modal"><div class="modal-content"><span class="close">&times;</span><p>Theme:</p><div id="colors"><br><div class="box"id="blue" data-theme='+cssblue+'></div><div class="box"id="orange" data-theme='+cssorange+'></div><div class="box"id="indigo" data-theme='+cssindigo+'></div><div class="box"id="green" data-theme='+cssgreen+'></div></div><p class="creditPJ">NCBI RookieUI<br>by Pierre JACQUET</p></div></div>');
 
-/*
-$('#orange').click(function (){
-   $('link[href='+cssblue+']').attr('href',cssorange);
-});
-$('#blue').click(function (){
-   $('link[href='+cssorange+']').attr('href',cssblue);
-});
-*/
+
 //COLOR PICKER
 $("div[data-theme]").click(function() {
     $("head link#theme").attr("href", $(this).data("theme"));
@@ -132,7 +125,8 @@ window.onclick = function(event) {
 
 
 
-
-//$(document).ready(function() {
-//document.getElementById("sidecontent_2_pullout").click();
-//});
+if (window.location.href.indexOf("www.ncbi.nlm.nih.gov/gene/") > -1) {
+$(document).ready(function() {
+document.getElementById("sidecontent_2_pullout").click();
+});
+}
