@@ -10,9 +10,8 @@ Many thanks to the Bioinfo-fr community.
 Please give me some advices to develop this project.
 
 TO-DO<br>
--SNP<br>
--SPARCLE<br>
--SRA<br>
+
+
 -Structure<br>
 -Taxonomy<br>
 -ToolKit<br>
