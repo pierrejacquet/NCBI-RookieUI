@@ -17,17 +17,24 @@ if(localStorage.getItem('theme') !== null){
 else {
   var lclStorage = cssindigo
 }
-$('head').append(' <link id="theme" rel="stylesheet" href='+lclStorage+'>');
-$('head').append('<script src="https://use.fontawesome.com/cfc9e58898.js"></script>');
-//CREATE A MIN HEIGHT DIV TO PUSH CONTENT UNDER NAVBAR
-if($("div[data-section='header']").length){
-  $("div[data-section='header']").after('<div style="height:120px; width:100%; background:white; clear:both;"></div>');
+
+  //use headerpad to block refresh extension
+if($('.headerpad').length == 0){
+    $('head').append(' <link id="theme" rel="stylesheet" href='+lclStorage+'>');
+
+    //CREATE A MIN HEIGHT DIV TO PUSH CONTENT UNDER NAVBAR
+
+        if($("div[data-section='header']").length > 0){
+          $("div[data-section='header']").after('<div class="headerpad" style="height:120px; width:100%; background:white; clear:both;"></div>');
+        }
+        else{
+            $('.header').after('<div  class="headerpad" style="height:120px; width:100%; background:white; clear:both;"></div>');
+        }
+
+    $('body').append('<button id="myBtn"><img src="'+fullURLrookiemax+'" class="rookieui"></img></button>');
+    $('body').append('<div id="myModal" class="modal"><div class="modal-content"><span class="close">&times;</span><p>Theme:</p><div id="colors"><br><div class="box"id="blue" data-theme='+cssblue+'></div><div class="box"id="orange" data-theme='+cssorange+'></div><div class="box"id="indigo" data-theme='+cssindigo+'></div><div class="box"id="green" data-theme='+cssgreen+'></div></div><p class="creditPJ">NCBI RookieUI<br>by Pierre JACQUET</p></div></div>');
+    load=0;
 }
-else{
-    $('.header').after('<div style="height:120px; width:100%; background:white; clear:both;"></div>');
-}
-$('body').append('<button id="myBtn"><img src="'+fullURLrookiemax+'" class="rookieui"></img></button>');
-$('body').append('<div id="myModal" class="modal"><div class="modal-content"><span class="close">&times;</span><p>Theme:</p><div id="colors"><br><div class="box"id="blue" data-theme='+cssblue+'></div><div class="box"id="orange" data-theme='+cssorange+'></div><div class="box"id="indigo" data-theme='+cssindigo+'></div><div class="box"id="green" data-theme='+cssgreen+'></div></div><p class="creditPJ">NCBI RookieUI<br>by Pierre JACQUET</p></div></div>');
 
 
 //COLOR PICKER

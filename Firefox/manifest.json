@@ -8,13 +8,6 @@
   "page_action": {
      "default_icon": "ROOKIE16.png"
    },
-
-   "applications": {
-     "gecko": {
-       "id": "rookieui@pierrejacquet.com",
-     }
-   },
-
   "homepage_url": "https://github.com/pierrejacquet/NCBI-RookieUI",
   "content_scripts": [{
     "css": ["styles.css","font-awesome.min.css"],
@@ -126,6 +119,5 @@
   "web_accessible_resources": ["jquery-3.2.1.min.js","content.js","blue.css","orange.css","indigo.css","green.css","ROOKIEMAX.png"],
   "icons": { "16": "ROOKIE16.png",
            "48": "ROOKIE48.png",
-          "128": "ROOKIE128.png" },
-
+          "128": "ROOKIE128.png" }
 }

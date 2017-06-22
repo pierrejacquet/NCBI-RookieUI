@@ -17,18 +17,19 @@ if(localStorage.getItem('theme') !== null){
 else {
   var lclStorage = cssindigo
 }
+$(document).ready(function() {
 $('head').append(' <link id="theme" rel="stylesheet" href='+lclStorage+'>');
 $('head').append('<script src="https://use.fontawesome.com/cfc9e58898.js"></script>');
 //CREATE A MIN HEIGHT DIV TO PUSH CONTENT UNDER NAVBAR
 if($("div[data-section='header']").length){
-  $("div[data-section='header']").after('<div style="height:120px; width:100%; background:white; clear:both;"></div>');
+  $("div[data-section='header']").after('<div  id="headerpad"  style="height:120px; width:100%; background:white; clear:both;"></div>');
 }
 else{
-    $('.header').after('<div style="height:120px; width:100%; background:white; clear:both;"></div>');
+    $('.header').after('<div   id="headerpad" style="height:120px; width:100%; background:white; clear:both;"></div>');
 }
 $('body').append('<button id="myBtn"><img src="'+fullURLrookiemax+'" class="rookieui"></img></button>');
 $('body').append('<div id="myModal" class="modal"><div class="modal-content"><span class="close">&times;</span><p>Theme:</p><div id="colors"><br><div class="box"id="blue" data-theme='+cssblue+'></div><div class="box"id="orange" data-theme='+cssorange+'></div><div class="box"id="indigo" data-theme='+cssindigo+'></div><div class="box"id="green" data-theme='+cssgreen+'></div></div><p class="creditPJ">NCBI RookieUI<br>by Pierre JACQUET</p></div></div>');
-
+});
 
 //COLOR PICKER
 $("div[data-theme]").click(function() {
