@@ -1,0 +1,15 @@
+.masthead p a{
+color: white!important;
+}
+.localnav ul li a{
+  color:white!important;
+}
+#toolbar{
+  z-index: 99999999999!important;
+}
+#rightcolumn .col6{
+  margin-top: 20px!important;
+}
+#rightcolumn{
+  margin-top: 70px!important;
+}

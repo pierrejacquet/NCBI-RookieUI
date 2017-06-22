@@ -1,0 +1,14 @@
+table.TEXT{
+  background-color: white!important;
+}
+table.TEXT tr, table.TEXT td{
+  background-color: white!important;
+}
+table{
+  margin-bottom: 25px!important;
+  border-collapse: collapse!important;
+}
+
+table.TEXT td{
+  padding-right: 20px!important;
+}

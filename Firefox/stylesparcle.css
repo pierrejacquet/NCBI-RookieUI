@@ -1,0 +1,21 @@
+.ncbi-page-header a{
+  color: white!important;
+}
+#sign_in {
+    color: white!important;
+}
+#myBtn{
+  top:50px!important;
+}
+tr td a, ul li a{
+  color:#205493!important;
+}
+.navret a {
+    color:#205493!important;
+}
+.usa-grid a {
+      color:#fff!important;
+}
+.usa-grid a:hover {
+      color:#fff!important;
+}

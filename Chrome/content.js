@@ -2,10 +2,15 @@ var images = document.getElementsByTagName('img');
 //for (var i = 0, l = images.length; i < l; i++) {
 //  images[i].src = 'http://placekitten.com/' + images[i].width + '/' + images[i].height;
 //}
-var cssblue = '"chrome-extension://lnleofiagmgapdapkbglmedjffmngkck/blue.css"';
-var cssorange = '"chrome-extension://lnleofiagmgapdapkbglmedjffmngkck/orange.css"';
-var cssindigo = '"chrome-extension://lnleofiagmgapdapkbglmedjffmngkck/indigo.css"';
-var cssgreen = '"chrome-extension://lnleofiagmgapdapkbglmedjffmngkck/green.css"';
+var fullURLblue = chrome.extension.getURL("blue.css");
+var fullURLorange = chrome.extension.getURL("orange.css");
+var fullURLindigo = chrome.extension.getURL("indigo.css");
+var fullURLgreen = chrome.extension.getURL("green.css");
+var fullURLrookiemax = chrome.extension.getURL("ROOKIEMAX.png");
+var cssblue = '"'+fullURLblue+'"';
+var cssorange = '"'+fullURLorange+'"';
+var cssindigo = '"'+fullURLindigo+'"';
+var cssgreen = '"'+fullURLgreen+'"';
 if(localStorage.getItem('theme') !== null){
   var lclStorage = localStorage.getItem('theme')
 }
@@ -21,7 +26,7 @@ if($("div[data-section='header']").length){
 else{
     $('.header').after('<div style="height:120px; width:100%; background:white; clear:both;"></div>');
 }
-$('body').append('<button id="myBtn"><img src="chrome-extension://lnleofiagmgapdapkbglmedjffmngkck/ROOKIEMAX.png" class="rookieui"></img></button>');
+$('body').append('<button id="myBtn"><img src="'+fullURLrookiemax+'" class="rookieui"></img></button>');
 $('body').append('<div id="myModal" class="modal"><div class="modal-content"><span class="close">&times;</span><p>Theme:</p><div id="colors"><br><div class="box"id="blue" data-theme='+cssblue+'></div><div class="box"id="orange" data-theme='+cssorange+'></div><div class="box"id="indigo" data-theme='+cssindigo+'></div><div class="box"id="green" data-theme='+cssgreen+'></div></div><p class="creditPJ">NCBI RookieUI<br>by Pierre JACQUET</p></div></div>');
 
 

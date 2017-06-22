@@ -1,0 +1,19 @@
+#titlearea{
+  display:none!important;
+}
+#top{
+  position: absolute!important;
+  top: 100px!important;
+  left: 0px!important;
+  width: 100%!important;
+}
+.tablist a:hover{
+  color: white!important;
+  text-decoration: none!important;
+}
+.tablist li.current a{
+  color: white!important;
+}
+.dbheader .headerintro h1{
+  color:white!important;
+}
