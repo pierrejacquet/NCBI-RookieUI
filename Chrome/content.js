@@ -31,12 +31,15 @@ $('body').append('<button id="myBtn"><img src="'+fullURLrookiemax+'" class="rook
 $('body').append('<div id="myModal" class="modal"><div class="modal-content"><span class="close">&times;</span><p>Theme:</p><div id="colors"><br><div class="box"id="blue" data-theme='+cssblue+'></div><div class="box"id="orange" data-theme='+cssorange+'></div><div class="box"id="indigo" data-theme='+cssindigo+'></div><div class="box"id="green" data-theme='+cssgreen+'></div></div><p class="creditPJ">NCBI RookieUI<br>by Pierre JACQUET</p></div></div>');
 });
 
+$(document).ready(function() {
 //COLOR PICKER
 $("div[data-theme]").click(function() {
     $("head link#theme").attr("href", $(this).data("theme"));
     localStorage.setItem('theme', $(this).data("theme"));
 });
 
+
+});
 
 
 
@@ -103,7 +106,7 @@ clic = 1;
 });
 
 
-
+$(document).ready(function() {
 // Get the modal
 var modal = document.getElementById('myModal');
 // Get the button that opens the modal
@@ -124,7 +127,7 @@ window.onclick = function(event) {
         modal.style.display = "none";
     }
 }
-
+});
 
 
 

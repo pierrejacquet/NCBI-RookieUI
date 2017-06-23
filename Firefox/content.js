@@ -37,12 +37,13 @@ if($('.headerpad').length == 0){
 }
 
 
+$(document).ready(function() {
 //COLOR PICKER
 $("div[data-theme]").click(function() {
     $("head link#theme").attr("href", $(this).data("theme"));
     localStorage.setItem('theme', $(this).data("theme"));
 });
-
+});
 
 
 
@@ -109,7 +110,7 @@ clic = 1;
 });
 
 
-
+$(document).ready(function() {
 // Get the modal
 var modal = document.getElementById('myModal');
 // Get the button that opens the modal
@@ -130,7 +131,7 @@ window.onclick = function(event) {
         modal.style.display = "none";
     }
 }
-
+});
 
 
 
