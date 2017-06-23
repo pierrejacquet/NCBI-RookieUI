@@ -12,10 +12,10 @@ var cssorange = '"'+fullURLorange+'"';
 var cssindigo = '"'+fullURLindigo+'"';
 var cssgreen = '"'+fullURLgreen+'"';
 if(localStorage.getItem('theme') !== null){
-  var lclStorage = localStorage.getItem('theme')
+  var lclStorage = localStorage.getItem('theme');
 }
-else {
-  var lclStorage = cssindigo
+if(localStorage.getItem('theme') === null){
+  var lclStorage = '"'+chrome.extension.getURL("indigo.css")+'"';
 }
 $(document).ready(function() {
 $('head').append(' <link id="theme" rel="stylesheet" href='+lclStorage+'>');
