@@ -1,11 +1,15 @@
 
 <img src="https://github.com/pierrejacquet/NCBI-RookieUI/blob/master/Chrome/ROOKIEMAX.png" width="120">
 In order to add the extension (on Chrome), add all files in a folder and drag & drop this folder on chrome://extensions
+or install via the webstore: https://chrome.google.com/webstore/detail/ncbi-rookie-ui/abpchaihggmpmpldeofeigihpmiejoba<br><br><br>
 
-For Firefox, type "about:debugging" in search bar, click on the “Load Temporary Add-on” and select any file of the project.
 
 
-Discover a new look on the NCBI website.
+
+For Firefox, type "about:debugging" in search bar, click on the “Load Temporary Add-on” and select any file of the project.<br><br>
+
+
+Discover a new look on the NCBI website.<br>
 
 ------
 
