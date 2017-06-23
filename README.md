@@ -1,5 +1,5 @@
 # NCBI RookieUI
-![]({{site.baseurl}}/NCBI-RookieUI/Chrome/ROOKIEMAX.png)
+<img src="https://github.com/pierrejacquet/NCBI-RookieUI/blob/master/Chrome/ROOKIEMAX.png?raw=true" width="100">
 
 ### Description
 
