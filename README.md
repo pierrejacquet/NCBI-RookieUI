@@ -18,14 +18,15 @@ RookieUI is **not** developed by NCBI.
 ### Installation
 
 - In order to add the extension (on Chrome):
-	- add all files in a folder and drag & drop this folder on ```chrome://extensions```
-	- or install via the [Chrome webstore]
+	- Install via the [Chrome webstore]
+	- or add all files in a folder and drag & drop this folder on ```chrome://extensions```
+
 
 
 
 - For Firefox:
-	- Go on ```about:debugging```, click on the “Load Temporary Add-on” and select any file of the project.
-    - or install it via [Mozilla addon] (WIP)
+    	- Install it with the installation file [Mozilla addon] (The file will be on the firefox store soon)
+	- or go on ```about:debugging```, click on the “Load Temporary Add-on” and select any file of the project.
 
 
 
@@ -40,3 +41,4 @@ I hope you will like it and that you can help me with your feedback.
    [chrome://extensions]: <chrome://extensions>
    [Chrome webstore]: <https://chrome.google.com/webstore/detail/ncbi-rookie-ui/abpchaihggmpmpldeofeigihpmiejoba>
    [about:debugging]: <about:debugging>
+   [Mozzilla addon]: <https://github.com/pierrejacquet/NCBI-RookieUI/blob/master/xpi-files/ncbi_rookieui.xpi?raw=true>
