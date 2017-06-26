@@ -40,4 +40,4 @@ I hope you will like it and that you can help me with your feedback.
    [chrome://extensions]: <chrome://extensions>
    [Chrome webstore]: <https://chrome.google.com/webstore/detail/ncbi-rookie-ui/abpchaihggmpmpldeofeigihpmiejoba>
    [about:debugging]: <about:debugging>
-   [Mozzilla addon]: <https://github.com/pierrejacquet/NCBI-RookieUI/blob/master/xpi-files/ncbi_rookieui.xpi?raw=true>
+   [Mozilla addon]: <https://github.com/pierrejacquet/NCBI-RookieUI/blob/master/xpi-files/ncbi_rookieui.xpi?raw=true>
