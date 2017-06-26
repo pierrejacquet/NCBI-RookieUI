@@ -24,7 +24,7 @@ RookieUI is **not** developed by NCBI.
 
 
 - For Firefox:
-    	- Install it with the installation file [Mozilla addon] (The file will be on the firefox store soon).
+	- Install it with the installation file [Mozilla addon] (The file will be on the firefox store soon).
 	- or go on ```about:debugging```, click on the “Load Temporary Add-on” and select any file of the project.
 
 
