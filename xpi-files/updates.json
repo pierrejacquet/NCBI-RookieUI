@@ -2,7 +2,7 @@
   "addons": {
     "ncbi@rookieui.com": {
       "updates": { "version": "0.1.1",
-          "update_link": "https://example.com/addon-0.1.xpi" },
+          "update_link": "https://github.com/pierrejacquet/NCBI-RookieUI/blob/master/xpi-files/ncbi_rookieui.xpi?raw=true" },
     }
   }
 }
