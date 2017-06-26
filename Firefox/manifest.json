@@ -8,6 +8,12 @@
   "page_action": {
      "default_icon": "ROOKIE16.png"
    },
+  "applications": {
+  "gecko": {
+     "id": "ncbi@rookieui.com",
+    "update_url": "https://github.com/pierrejacquet/NCBI-RookieUI/blob/master/xpi-files/updates.json"
+  }
+},
   "homepage_url": "https://github.com/pierrejacquet/NCBI-RookieUI",
   "content_scripts": [{
     "css": ["styles.css","font-awesome.min.css"],
