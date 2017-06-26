@@ -1,10 +1,8 @@
 {
   "addons": {
     "ncbi@rookieui.com": {
-      "updates": [
-        { "version": "0.1.1",
+      "updates": { "version": "0.1.1",
           "update_link": "https://example.com/addon-0.1.xpi" },
-      ]
     }
   }
 }
