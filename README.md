@@ -38,11 +38,11 @@ I hope you will like it and that you can help me with your feedback.
 ### Screenshots (click to enlarge):
 **Before / After**
 
-<img src="https://raw.githubusercontent.com/pierrejacquet/NCBI-RookieUI/master/screenshots/old.png" width="400">  <img src="https://raw.githubusercontent.com/pierrejacquet/NCBI-RookieUI/master/screenshots/greenblue.png" width="400">
+<img src="https://raw.githubusercontent.com/pierrejacquet/NCBI-RookieUI/master/screenshots/old.png" width="400"> - <img src="https://raw.githubusercontent.com/pierrejacquet/NCBI-RookieUI/master/screenshots/greenblue.png" width="400">
 
-<img src="https://raw.githubusercontent.com/pierrejacquet/NCBI-RookieUI/master/screenshots/searchold.png" width="400">  <img src="https://raw.githubusercontent.com/pierrejacquet/NCBI-RookieUI/master/screenshots/searchnew.png" width="400">
+<img src="https://raw.githubusercontent.com/pierrejacquet/NCBI-RookieUI/master/screenshots/searchold.png" width="400"> - <img src="https://raw.githubusercontent.com/pierrejacquet/NCBI-RookieUI/master/screenshots/searchnew.png" width="400">
 
-<img src="https://raw.githubusercontent.com/pierrejacquet/NCBI-RookieUI/master/screenshots/Geneold2.png" width="400">  <img src="https://raw.githubusercontent.com/pierrejacquet/NCBI-RookieUI/master/screenshots/Genenew3.png" width="400">
+<img src="https://raw.githubusercontent.com/pierrejacquet/NCBI-RookieUI/master/screenshots/Geneold2.png" width="400"> - <img src="https://raw.githubusercontent.com/pierrejacquet/NCBI-RookieUI/master/screenshots/Genenew3.png" width="400">
 
 
    [chrome://extensions]: <chrome://extensions>
