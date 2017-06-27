@@ -34,7 +34,14 @@ RookieUI is **not** developed by NCBI.
 Many thanks to the Bioinfo-fr community.
 
 I hope you will like it and that you can help me with your feedback.
+<img src="https://raw.githubusercontent.com/pierrejacquet/NCBI-RookieUI/master/screenshots/old.png" width="100">
+<img src="https://raw.githubusercontent.com/pierrejacquet/NCBI-RookieUI/master/screenshots/greenblue.png" width="100">
 
+<img src="https://raw.githubusercontent.com/pierrejacquet/NCBI-RookieUI/master/screenshots/searchold.png" width="100">
+<img src="https://raw.githubusercontent.com/pierrejacquet/NCBI-RookieUI/master/screenshots/searchnew.png" width="100">
+
+<img src="https://raw.githubusercontent.com/pierrejacquet/NCBI-RookieUI/master/screenshots/Geneold2.png" width="100">
+<img src="https://raw.githubusercontent.com/pierrejacquet/NCBI-RookieUI/master/screenshots/Genenew3.png" width="100">
 
 
    [chrome://extensions]: <chrome://extensions>
