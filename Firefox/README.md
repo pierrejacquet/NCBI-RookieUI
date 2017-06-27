@@ -28,6 +28,15 @@ RookieUI is **not** developed by NCBI.
 	- or go on ```about:debugging```, click on the “Load Temporary Add-on” and select any file of the project.
 
 
+### Screenshots (click to enlarge):
+**Before / After**
+
+<kbd><img src="https://raw.githubusercontent.com/pierrejacquet/NCBI-RookieUI/master/screenshots/old.png" width="400"></kbd><kbd><img src="https://raw.githubusercontent.com/pierrejacquet/NCBI-RookieUI/master/screenshots/blue.png" width="400"></kbd>
+
+<kbd><img src="https://raw.githubusercontent.com/pierrejacquet/NCBI-RookieUI/master/screenshots/searchold.png" width="400" border="1px solid black"></kbd><kbd><img src="https://raw.githubusercontent.com/pierrejacquet/NCBI-RookieUI/master/screenshots/searchnew.png" width="400"></kbd>
+
+<kbd><img src="https://raw.githubusercontent.com/pierrejacquet/NCBI-RookieUI/master/screenshots/Geneold2.png" width="400"></kbd><kbd><img src="https://raw.githubusercontent.com/pierrejacquet/NCBI-RookieUI/master/screenshots/Genenew3.png" width="400"></kbd>
+
 
 ------
 
@@ -36,8 +45,8 @@ Many thanks to the Bioinfo-fr community.
 I hope you will like it and that you can help me with your feedback.
 
 
-
    [chrome://extensions]: <chrome://extensions>
    [Chrome webstore]: <https://chrome.google.com/webstore/detail/ncbi-rookie-ui/abpchaihggmpmpldeofeigihpmiejoba>
    [about:debugging]: <about:debugging>
    [Mozilla addon]: <https://github.com/pierrejacquet/NCBI-RookieUI/blob/master/xpi-files/ncbi_rookieui.xpi?raw=true>
+   
