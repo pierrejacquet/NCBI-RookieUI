@@ -1,34 +1,43 @@
 div.refgenome_sensor {
-    padding: 1.5em!important;
-    line-height: 2em!important;
+  padding     : 1.5em!important;
+  line-height : 2em!important;
 }
-.rprt{
-    line-height: 1.6em!important;
-    text-align: justify!important;
+
+.rprt {
+  text-align  : justify!important;
+  line-height : 1.6em!important;
 }
-.GenomeLineage{
-  font-size: inherit!important;
-  font-weight: normal!important;
+
+.GenomeLineage {
+  font-size   : inherit!important;
+  font-weight : normal!important;
 }
-.GenomeLineage a{
-  font-size: inherit!important;
-  font-weight: normal!important;
+
+.GenomeLineage a {
+  font-size   : inherit!important;
+  font-weight : normal!important;
 }
+
 table.GenomeList2 {
-    border-left-style: solid!important;
-    border-left-color: #ddd!important;
-    border-left-width: 1px!important;
+  border-left-color : #ddd!important;
+  border-left-width : 1px!important;
+  border-left-style : solid!important;
 }
-.GenomeList2 th, .GenomeList2 td {
-    border: 1px solid #616161!important;
+
+.GenomeList2 td,
+.GenomeList2 th {
+  border : 1px solid #616161!important;
 }
+
 div[id*="ideo-box"] {
-  zoom: 1.5!important;
-  transform: scaleY(1.40)!important;
+  zoom      : 1.5!important;
+  transform : scaleY(1.40)!important;
 }
-#ideogram_section_id{
-      margin-bottom: 50px;
+
+#ideogram_section_id {
+  margin-bottom : 50px;
 }
-td.IMAGE{
-  zoom:1.8!important;
+
+td.IMAGE {
+  zoom : 1.8!important;
 }

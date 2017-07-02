@@ -1,271 +1,344 @@
-
-.header{
-  background: white!important;
+.header {
+  background : white!important;
 }
 
 .search_form .jig-ncbiclearbutton-wrap {
-    border: 1px solid #1d95ed!important;
+  border : 1px solid #1D95ED!important;
 }
+
 .search_form .jig-ncbiclearbutton-wrap > input {
-    border: none!important;
+  border : none!important;
 }
+
 .search_form button.button_search {
-    background-color: #1d95ed!important;
+  background-color : #1D95ED!important;
 }
-div.header{
-box-shadow: 0 10px 6px -6px #777!important;
-border-bottom: 5px solid #1d95ed;
+
+div.header {
+  border-bottom : 5px solid #1D95ED;
+  box-shadow    : 0 10px 6px -6px #777!important;
 }
-div[data-section=header]{
-  box-shadow: 0 10px 6px -6px #777!important;
-  border-bottom: 10px solid #1d95ed;
+
+div[data-section=header] {
+  border-bottom : 10px solid #1D95ED;
+  box-shadow    : 0 10px 6px -6px #777!important;
 }
 
 ul.jig-ncbimenu a.topanchor {
-    color: #0d5082!important;
-}
-.adtermtext {
-color: #0d5082!important;
-}
-.myncbi a {
-    color: #0d5082!important;
-}
-.myh1{
-  color: #1d95ed!important;
-}
-#libtitle h1{
-    color: #1d95ed!important;
-}
-/*logo*/
-.res_logo h1 a{
-  color: #1d95ed!important;
+  color : #0D5082!important;
 }
 
-/*TEXT ARTICLE*/
+.adtermtext {
+  color : #0D5082!important;
+}
+
+.myncbi a {
+  color : #0D5082!important;
+}
+
+.myh1 {
+  color : #1D95ED!important;
+}
+
+#libtitle h1 {
+  color : #1D95ED!important;
+}
+
+/* logo */
+
+.res_logo h1 a {
+  color : #1D95ED!important;
+}
+
+/* TEXT ARTICLE */
+
 h1.content-title {
-  color: #375E97!important;
+  color : #375E97!important;
 }
-div.rprt_all  h1{
-  color: #375E97!important;
+
+div.rprt_all h1 {
+  color : #375E97!important;
 }
-#detail_div h1{
-    color: #375E97!important;
+
+#detail_div h1 {
+  color : #375E97!important;
 }
-h1{
-    color: #375E97!important;
+
+h1 {
+  color : #375E97!important;
 }
-h2{
-    color: #F90B6D!important;
+
+h2 {
+  color : #F90B6D!important;
 }
-h3{
-    color: #F90B6D!important;
+
+h3 {
+  color : #F90B6D!important;
 }
-.H4{
-    color: #F90B6D!important;
+
+.H4 {
+  color : #F90B6D!important;
 }
 
 h2.head {
-  color: #F90B6D!important;
+  color : #F90B6D!important;
 }
-caption{
-    color: #F90B6D!important;
+
+caption {
+  color : #F90B6D!important;
 }
+
 .abstr h3 {
-  color: #F90B6D!important;
+  color : #F90B6D!important;
 }
-.heading4{
-  color: #0068b5!important;
+
+.heading4 {
+  color : #0068B5!important;
 }
-.graybannertext{
-  color: #F90B6D!important;
+
+.graybannertext {
+  color : #F90B6D!important;
 }
+
 p {
-  color: #222!important;
+  color : #222!important;
 }
+
 p.title a {
-  color: #0068b5!important;
+  color : #0068B5!important;
 }
-a{
-    color: #0068b5!important;
+
+a {
+  color : #0068B5!important;
 }
-a:hover{
-  color: #F90B6D!important;
+
+a:hover {
+  color : #F90B6D!important;
 }
-sup{
-    color: #375E97!important;
+
+sup {
+  color : #375E97!important;
 }
-.firsttier_portlet h1, .firsttier_portlet h2, .firsttier_portlet h3, .firsttier_portlet h4, .firsttier_portlet h5, .firsttier_portlet h6 {
-    color: #F90B6D!important;
+
+.firsttier_portlet h1,
+.firsttier_portlet h2,
+.firsttier_portlet h3,
+.firsttier_portlet h4,
+.firsttier_portlet h5,
+.firsttier_portlet h6 {
+  color : #F90B6D!important;
 }
+
 #maincontent .links-box {
-    border: 1px solid rgba(249, 11, 54, 0.3)!important;
-      background-color: rgba(249, 11, 54, 0.7)!important;
-    color: white!important;
+  color            : white!important;
+  border           : 1px solid rgba(249, 11, 54, 0.3)!important;
+  background-color : rgba(249, 11, 54, 0.7)!important;
 }
+
 #maincontent .links-box a {
-  color: white!important;
+  color : white!important;
 }
 
-/*COLUMN RIGHT*/
+/* COLUMN RIGHT */
+
 #rightcolumn {
-    border-left: 1px solid #dadada!important;
-    box-shadow: -0px 10px 20px -7px #777!important;
+  border-left : 1px solid #DADADA!important;
+  box-shadow  : -0px 10px 20px -7px #777!important;
 }
 
-      /* pour gene */
+/* gene */
 
-      .rprt-section-header {
-        background: #0064ad!important;
-        box-shadow: 0 7px 6px -6px #777!important;
-      }
-      .rprt-section-header h2 a{
-        color: white!important;
-      }
-      .sidecontentpullout_local {
-        background-color: #157aab!important;
-      }
-      a.sidecontentpullout_local {
-      color:white!important;
-      }
+.rprt-section-header {
+  background : #0064AD!important;
+  box-shadow : 0 7px 6px -6px #777!important;
+}
+
+.rprt-section-header h2 a {
+  color : white!important;
+}
+
+.sidecontentpullout_local {
+  background-color : #157AAB!important;
+}
+
+a.sidecontentpullout_local {
+  color : white!important;
+}
 
 .ctrl .portlet_head {
-background-color: #1ba1e2!important;
-border-color: #1ba1e2!important;
+  border-color     : #1BA1E2!important;
+  background-color : #1BA1E2!important;
 }
+
 .ctrl .portlet_title h3 {
-    color: #fff!important;
+  color : #FFF!important;
 }
+
 .portlet {
-    border-top: .4em solid #1ba1e2!important;
+  border-top : 0.4em solid #1BA1E2!important;
 }
+
 .filters .portlet_list li.filter_selected a {
-    color: white!important;
-    background-color: #F74288!important;
+  color            : white!important;
+  background-color : #F74288!important;
 }
-.portlet h1, .portlet h2, .portlet h3, .portlet h4, .portlet h5, .portlet h6 {
-    color: #F74288!important;
+
+.portlet h1,
+.portlet h2,
+.portlet h3,
+.portlet h4,
+.portlet h5,
+.portlet h6 {
+  color : #F74288!important;
 }
+
 .ctrl div.portlet_content {
-    background-color: #ffffff!important;
-    border: 1px solid #1ba1e2!important;
+  border           : 1px solid #1BA1E2!important;
+  background-color : #FFFFFF!important;
 }
+
 /* Modal Content */
+
 .modal-content {
-    background-color: #fefefe;
-
-    border: 1px solid #e0e0e0;
-
+  border           : 1px solid #E0E0E0;
+  background-color : #FEFEFE;
 }
 
 /* The Close Button */
+
 .close {
-    color: #aaaaaa;
+  color : #AAAAAA;
 }
 
-.close:hover,
-.close:focus {
-    color: #000;
+.close:focus,
+.close:hover {
+  color : #000;
 }
-#myBtn{
-  color:#1ba1e2;
+
+#myBtn {
+  color : #1BA1E2;
 }
+
 #summary h1 {
-    color: #F74288!important;
+  color : #F74288!important;
 }
+
 #footer {
-    background: none!important;
-    border-top: 4px solid #1ba1e2!important;
-}
-input, textarea {
-    border-radius: 10px;
-    border: 1px solid #1ba1e2!important;
-    padding-left: 5px!important;
-    padding-right: 5px!important;
+  border-top : 4px solid #1BA1E2!important;
+  background : none!important;
 }
 
-select{
-  border-radius: 10px;
-  border: 1px solid #1ba1e2!important;
-  padding-left: 5px!important;
-  padding-right: 5px!important;
+input,
+textarea {
+  padding-right : 5px!important;
+  padding-left  : 5px!important;
+  border        : 1px solid #1BA1E2!important;
+  border-radius : 10px;
 }
-.filters p strong{
-  color:#F74288!important;
+
+select {
+  padding-right : 5px!important;
+  padding-left  : 5px!important;
+  border        : 1px solid #1BA1E2!important;
+  border-radius : 10px;
 }
+
+.filters p strong {
+  color : #F74288!important;
+}
+
 .portlet .portlet_section_header {
-    color: #F74288!important;
+  color : #F74288!important;
 }
-a.toc-item{
-    color: #086E78!important;
+
+a.toc-item {
+  color : #086E78!important;
 }
-.meta-content h1{
-    color: #F74288!important;
+
+.meta-content h1 {
+  color : #F74288!important;
 }
+
 .gap2_box_top {
-    color: #fff!important;
-    border: 1px solid #a1a5a9!important;
-    background: #1ba1e2!important;
-  }
-.seqviewer .rprtheader h1{
-  color:#1ba1e2!important;
+  color      : #FFF!important;
+  border     : 1px solid #A1A5A9!important;
+  background : #1BA1E2!important;
 }
-pre b{
-    color:#F74288!important;
+
+.seqviewer .rprtheader h1 {
+  color : #1BA1E2!important;
 }
-pre{
-    color: #222!important;
+
+pre b {
+  color : #F74288!important;
 }
+
+pre {
+  color : #222!important;
+}
+
 .ui-ncbigrid-outer-div {
-    border: 1px solid #1ba1e2!important;
+  border : 1px solid #1BA1E2!important;
 }
 
-/*A TESTER*/
-b{
-  color:#1ba1e2!important;
-}
-/**/
-.GenomeTitle{
-    color:#F74288!important;
-}
-span.section_title{
-      color:#F74288!important;
+
+
+b {
+  color : #1BA1E2!important;
 }
 
-/*GENOME*/
+
+
+.GenomeTitle {
+  color : #F74288!important;
+}
+
+span.section_title {
+  color : #F74288!important;
+}
+
+/* GENOME */
+
 .GenomeList2 th {
-    background-color: #1d95ed!important;
-    color: white!important;
+  color            : white!important;
+  background-color : #1D95ED!important;
 }
 
-/*medgen*/
-.MedGenTitleText{
-    color:#1d95ed!important;
-}
-/*Structure*/
-.biotext{
-        color:#F74288!important;
-}
-.title-cd-name{
-      color:#F74288!important;
+/* medgen */
+
+.MedGenTitleText {
+  color : #1D95ED!important;
 }
 
-/* A TESTER */
-td[bgcolor="#cccccc"]{
-    background-color: #1d95ed!important;
-    color:white!important;
-}
-td[bgcolor="#ccccff"]{
-    background-color: #1d95ed!important;
-    color:white!important;
+/* Structure */
+
+.biotext {
+  color : #F74288!important;
 }
 
-.EntryTitle{
-  color:#F74288!important;
-}
-.PortletTitle{
-    color:#F74288!important;
+.title-cd-name {
+  color : #F74288!important;
 }
 
-.creditPJ{
-  color:#1d95ed!important;
+
+td[bgcolor="#cccccc"] {
+  color            : white!important;
+  background-color : #1D95ED!important;
+}
+
+td[bgcolor="#ccccff"] {
+  color            : white!important;
+  background-color : #1D95ED!important;
+}
+
+.EntryTitle {
+  color : #F74288!important;
+}
+
+.PortletTitle {
+  color : #F74288!important;
+}
+
+.creditPJ {
+  color : #1D95ED!important;
 }

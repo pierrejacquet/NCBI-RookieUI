@@ -1,12 +1,15 @@
-.sra-full-data{
-  padding-bottom: 20px!important;
+.sra-full-data {
+  padding-bottom : 20px!important;
 }
+
 a.expand-handler span {
-    color: inherit!important;
+  color : inherit!important;
 }
+
 a.expand-handler {
-    border-bottom: 0px!important;
+  border-bottom : 0px!important;
 }
+
 .sra-full-data>div {
-    color: inherit!important;
+  color : inherit!important;
 }

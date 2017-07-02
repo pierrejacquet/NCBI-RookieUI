@@ -1,265 +1,336 @@
+.header {
+  background : white!important;
+}
 
-.header{
-  background: white!important;
-}
 .search_form button.button_search {
-    background-color: #8BC34A!important;
+  background-color : #8BC34A!important;
 }
+
 .search_form .jig-ncbiclearbutton-wrap {
-    border: 1px solid #8BC34A!important;
+  border : 1px solid #8BC34A!important;
 }
+
 .search_form .jig-ncbiclearbutton-wrap > input {
-    border: none!important;
+  border : none!important;
 }
+
 .adtermtext {
-color: #086E78!important;
+  color : #086E78!important;
 }
-div.header{
-box-shadow: 0 10px 6px -6px #777!important;
-border-bottom: 5px solid #8BC34A;
+
+div.header {
+  border-bottom : 5px solid #8BC34A;
+  box-shadow    : 0 10px 6px -6px #777!important;
 }
-div[data-section=header]{
-  box-shadow: 0 10px 6px -6px #777!important;
-  border-bottom: 10px solid #8BC34A;
+
+div[data-section=header] {
+  border-bottom : 10px solid #8BC34A;
+  box-shadow    : 0 10px 6px -6px #777!important;
 }
 
 ul.jig-ncbimenu a.topanchor {
-    color: #8BC34A!important;
+  color : #8BC34A!important;
 }
 
 .myncbi a {
-    color: #8BC34A!important;
+  color : #8BC34A!important;
 }
 
-/*logo*/
-.res_logo h1 a{
-  color: #086E78!important;
+/* logo */
+
+.res_logo h1 a {
+  color : #086E78!important;
 }
-.firsttier_portlet h1, .firsttier_portlet h2, .firsttier_portlet h3, .firsttier_portlet h4, .firsttier_portlet h5, .firsttier_portlet h6 {
-    color: #086E78!important;
+
+.firsttier_portlet h1,
+.firsttier_portlet h2,
+.firsttier_portlet h3,
+.firsttier_portlet h4,
+.firsttier_portlet h5,
+.firsttier_portlet h6 {
+  color : #086E78!important;
 }
-/*TEXT ARTICLE*/
-.myh1{
-  color: #086E78!important;
+
+/* TEXT ARTICLE */
+
+.myh1 {
+  color : #086E78!important;
 }
-#libtitle h1{
-    color: #086E78!important;
+
+#libtitle h1 {
+  color : #086E78!important;
 }
+
 h1.content-title {
-  color: #086E78!important;
+  color : #086E78!important;
 }
-div.rprt_all  h1{
-  color: #086E78!important;
+
+div.rprt_all h1 {
+  color : #086E78!important;
 }
-h1{
-    color: #63942b!important;
+
+h1 {
+  color : #63942b!important;
 }
-#detail_div h1{
-    color: #086E78!important;
+
+#detail_div h1 {
+  color : #086E78!important;
 }
-h2{
-    color: #086E78!important;
+
+h2 {
+  color : #086E78!important;
 }
-h3{
-    color: #086E78!important;
+
+h3 {
+  color : #086E78!important;
 }
+
 h2.head {
-  color: #086E78!important;
+  color : #086E78!important;
 }
-caption{
-    color: #086E78!important;
+
+caption {
+  color : #086E78!important;
 }
+
 .abstr h3 {
-  color: #086E78!important;
+  color : #086E78!important;
 }
-.heading4{
-    color: #086E78!important;
+
+.heading4 {
+  color : #086E78!important;
 }
-.H4{
-    color: #086E78!important;
+
+.H4 {
+  color : #086E78!important;
 }
-.graybannertext{
-  color: #086E78!important;
+
+.graybannertext {
+  color : #086E78!important;
 }
+
 p {
-  color: #222!important;
+  color : #222!important;
 }
+
 p.title a {
-  color: #086E78!important;
+  color : #086E78!important;
 }
-a{
-    color: #63942b!important;
+
+a {
+  color : #63942b!important;
 }
-a:hover{
-  color: #086E78!important;
+
+a:hover {
+  color : #086E78!important;
 }
-sup{
-    color: #086E78!important;
+
+sup {
+  color : #086E78!important;
 }
+
 #maincontent .links-box {
-    border: 1px solid rgba(49, 171, 243, 0.3)!important;
-    background-color: rgba(8, 110, 120, 0.7)!important;
-    color: white!important;
+  color            : white!important;
+  border           : 1px solid rgba(49, 171, 243, 0.3)!important;
+  background-color : rgba(8, 110, 120, 0.7)!important;
 }
+
 #maincontent .links-box a {
-  color: white!important;
+  color : white!important;
 }
 
-/*COLUMN RIGHT*/
+/* COLUMN RIGHT */
+
 #rightcolumn {
-    border-left: 1px solid #dadada!important;
-    box-shadow: -0px 10px 20px -7px #777!important;
+  border-left : 1px solid #dadada!important;
+  box-shadow  : -0px 10px 20px -7px #777!important;
 }
-.rprt-header{
-  color:#086E78!important;
-}
-      /* pour gene */
 
-      .rprt-section-header {
-        background: #086E78 !important;
-        box-shadow: 0 7px 6px -6px #777!important;
-      }
-      .rprt-section-header h2 a{
-        color: white!important;
-      }
-      .sidecontentpullout_local {
-        background-color: #8BC34A !important;
-      }
-      a.sidecontentpullout_local {
-      color:white!important;
-      }
+.rprt-header {
+  color : #086E78!important;
+}
+
+/* gene */
+
+.rprt-section-header {
+  background : #086E78 !important;
+  box-shadow : 0 7px 6px -6px #777!important;
+}
+
+.rprt-section-header h2 a {
+  color : white!important;
+}
+
+.sidecontentpullout_local {
+  background-color : #8BC34A !important;
+}
+
+a.sidecontentpullout_local {
+  color : white!important;
+}
 
 .ctrl .portlet_head {
-background-color: #8BC34A !important;
-border-color: #8BC34A !important;
+  border-color     : #8BC34A !important;
+  background-color : #8BC34A !important;
 }
+
 .ctrl .portlet_title h3 {
-    color: #fff!important;
+  color : #fff!important;
 }
+
 .portlet {
-    border-top: .4em solid #8BC34A!important;
+  border-top : .4em solid #8BC34A!important;
 }
 
-.portlet h1, .portlet h2, .portlet h3, .portlet h4, .portlet h5, .portlet h6 {
-    color: #086E78!important;
+.portlet h1,
+.portlet h2,
+.portlet h3,
+.portlet h4,
+.portlet h5,
+.portlet h6 {
+  color : #086E78!important;
 }
+
 .filters .portlet_list li.filter_selected a {
-    color: white!important;
-    background-color: #086E78!important;
+  color            : white!important;
+  background-color : #086E78!important;
 }
+
 .ctrl div.portlet_content {
-    background-color: #ffffff!important;
-    border: 1px solid #8BC34A!important;
+  border           : 1px solid #8BC34A!important;
+  background-color : #ffffff!important;
 }
+
 /* Modal Content */
+
 .modal-content {
-    background-color: #fefefe;
-
-    border: 1px solid #e0e0e0;
-
+  border           : 1px solid #e0e0e0;
+  background-color : #fefefe;
 }
 
 /* The Close Button */
+
 .close {
-    color: #aaaaaa;
+  color : #aaaaaa;
 }
 
-.close:hover,
-.close:focus {
-    color: #000;
+.close:focus,
+.close:hover {
+  color : #000;
 }
-#myBtn{
-  color:#8BC34A ;
+
+#myBtn {
+  color : #8BC34A;
 }
+
 #summary h1 {
-    color: #086E78!important;
+  color : #086E78!important;
 }
 
 #footer {
-    background: none!important;
-    border-top: 4px solid #8BC34A!important;
-}
-input, textarea {
-    border-radius: 10px;
-    border: 1px solid #8BC34A!important;
-    padding-left: 5px!important;
-    padding-right: 5px!important;
+  border-top : 4px solid #8BC34A!important;
+  background : none!important;
 }
 
-select{
-  border-radius: 10px;
-  border: 1px solid #8BC34A!important;
-  padding-left: 5px!important;
-  padding-right: 5px!important;
+input,
+textarea {
+  padding-right : 5px!important;
+  padding-left  : 5px!important;
+  border        : 1px solid #8BC34A!important;
+  border-radius : 10px;
 }
-.filters p strong{
-  color:#086E78!important;
+
+select {
+  padding-right : 5px!important;
+  padding-left  : 5px!important;
+  border        : 1px solid #8BC34A!important;
+  border-radius : 10px;
+}
+
+.filters p strong {
+  color : #086E78!important;
 }
 
 .portlet .portlet_section_header {
-    color: #086E78!important;
+  color : #086E78!important;
 }
-a.toc-item{
-    color: #086E78!important;
+
+a.toc-item {
+  color : #086E78!important;
 }
-.meta-content h1{
-    color: #086E78!important;
+
+.meta-content h1 {
+  color : #086E78!important;
 }
+
 .gap2_box_top {
-    color: #fff!important;
-    border: 1px solid #a1a5a9!important;
-    background: #8bc34a!important;
-  }
-  .seqviewer .rprtheader h1{
-    color:#8bc34a!important;
-  }
-  pre b{
-      color:#086E78!important;
-  }
-  .ui-ncbigrid-outer-div {
-      border: 1px solid #8bc34a!important;
-  }
-  b{
-    color:#086E78!important;
-  }
-  span.section_title{
-        color:#086E78!important;
-  }
-  /*GENOME*/
-  .GenomeList2 th {
-      background-color: #8bc34a!important;
-      color: white!important;
-  }
-  /*medgen*/
-  .MedGenTitleText{
-      color:#086E78!important;
-  }
+  color      : #fff!important;
+  border     : 1px solid #a1a5a9!important;
+  background : #8bc34a!important;
+}
 
-  /*Structure*/
-  .biotext{
-          color:#086E78!important;
-  }
-  .title-cd-name{
-        color:#086E78!important;
-  }
+.seqviewer .rprtheader h1 {
+  color : #8bc34a!important;
+}
+
+pre b {
+  color : #086E78!important;
+}
+
+.ui-ncbigrid-outer-div {
+  border : 1px solid #8bc34a!important;
+}
+
+b {
+  color : #086E78!important;
+}
+
+span.section_title {
+  color : #086E78!important;
+}
+
+/* GENOME */
+
+.GenomeList2 th {
+  color            : white!important;
+  background-color : #8bc34a!important;
+}
+
+/* medgen */
+
+.MedGenTitleText {
+  color : #086E78!important;
+}
+
+/* Structure */
+
+.biotext {
+  color : #086E78!important;
+}
+
+.title-cd-name {
+  color : #086E78!important;
+}
 
 
-  /* A TESTER */
-  td[bgcolor="#cccccc"]{
-      background-color: #8bc34a!important;
-      color:white!important;
-  }
-  td[bgcolor="#ccccff"]{
-      background-color: #8bc34a!important;
-      color:white!important;
-  }
-  .EntryTitle{
-    color:#086E78!important;
-  }
-  .PortletTitle{
-      color:#086E78!important;
-  }
+td[bgcolor="#cccccc"] {
+  color            : white!important;
+  background-color : #8bc34a!important;
+}
 
-  .creditPJ{
-    color:#8bc34a!important;
-  }
+td[bgcolor="#ccccff"] {
+  color            : white!important;
+  background-color : #8bc34a!important;
+}
+
+.EntryTitle {
+  color : #086E78!important;
+}
+
+.PortletTitle {
+  color : #086E78!important;
+}
+
+.creditPJ {
+  color : #8bc34a!important;
+}

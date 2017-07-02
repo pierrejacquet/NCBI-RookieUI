@@ -1,35 +1,44 @@
-.dbheader .headerintro h1{
-  color: white!important;
-}
-#centerColumn{
-  border:0px solid #fff!important;
-}
-button.mmdb-search-button {
-    vertical-align: text-bottom;
-    margin-bottom: 4px!important;
-}
-.reference_section{
-  border: none!important;
-}
-#annotblock{
-  margin-top: 60px!important;
-}
-h1.title-scroll-fixed{
-  color: white!important;
-}
-.content_block{
-  margin-top: 50px!important;
-}
-a.struc_block_q{
-  color:white!important;
+.dbheader .headerintro h1 {
+  color : white!important;
 }
 
-table *{
-  border-color:#f7f7f7!important;
+#centerColumn {
+  border : 0px solid #fff!important;
 }
-table.bucontent{
-  border-collapse: collapse!important;
+
+button.mmdb-search-button {
+  margin-bottom  : 4px!important;
+  vertical-align : text-bottom;
 }
-.title-scroll-fixed a{
-color:white!important;
+
+.reference_section {
+  border : none!important;
+}
+
+#annotblock {
+  margin-top : 60px!important;
+}
+
+h1.title-scroll-fixed {
+  color : white!important;
+}
+
+.content_block {
+  margin-top : 50px!important;
+}
+
+a.struc_block_q {
+  color : white!important;
+}
+
+table * {
+  border-color : #f7f7f7!important;
+}
+
+table.bucontent {
+  border-collapse : collapse!important;
+}
+
+.title-scroll-fixed a {
+  color : white!important;
 }

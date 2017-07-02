@@ -1,123 +1,142 @@
-#myBtn{
-  margin-top: 50px!important;
-}
-table{
-  margin-bottom: 20px!important;
-
-}
-body > table:first-of-type{
-display: table!important;
-margin-left: auto!important;
-margin-right: auto!important;
-width: 100%!important;
+#myBtn {
+  margin-top : 50px!important;
 }
 
-#Submission{
-width: calc(100vw - 40px)!important;
-overflow: auto;
-display: block;
-
+table {
+  margin-bottom : 20px!important;
 }
 
-#gv-result{
-  width: calc(100vw - 40px)!important;
-}
-#Diversity{
-  width: calc(100vw - 40px)!important;
-}
-td[bgcolor="#CCCCCC"]{
-    background-color: #fff;
-}
-div[align="center"]>table[width="100%"]{
-  width: calc(100vw - 38px)!important;
+body > table:first-of-type {
+  display      : table!important;
+  width        : 100%!important;
+  margin-right : auto!important;
+  margin-left  : auto!important;
 }
 
-*[style*="background-color:#CCCCFF"]{
-    background-color: #fff!important;
-}
-*[bgcolor="#ccccff"]{
-    background-color: #fff!important;
-}
-
-td a strong{
-  margin-top: 20px!important;
+#Submission {
+  display  : block;
+  width    : calc(100vw - 40px)!important;
+  overflow : auto;
 }
 
-*[bgcolor="silver"]{
-    background-color: rgb(51, 102, 153)!important;
-    color:white!important;
-}
-*[bgcolor="silver"] a{
-    color:white!important;
-}
-.SMALL1{
-  text-align: center!important;
+#gv-result {
+  width : calc(100vw - 40px)!important;
 }
 
-td[bgcolor="#336699"]{
-    background-color: white!important;
-    position: fixed!important;
-    top: 230px!important;
-    left: -180px!important;
-    padding-right: 30px!important;
-    padding-left: 30px!important;
-    border: 1px solid rgba(185, 185, 185, 0.33)!important;
-    box-shadow:5px 8px 8px -6px #777!important;
-    z-index: 9999999999!important;
+#Diversity {
+  width : calc(100vw - 40px)!important;
 }
-td[bgcolor="#336699"]:hover{
-    position: fixed!important;
-    top: 230px!important;
-    left: 0px!important;
-    padding-right: 30px!important;
+
+td[bgcolor="#CCCCCC"] {
+  background-color : #fff;
 }
+
+div[align="center"]>table[width="100%"] {
+  width : calc(100vw - 38px)!important;
+}
+
+*[style*="background-color:#CCCCFF"] {
+  background-color : #fff!important;
+}
+
+*[bgcolor="#ccccff"] {
+  background-color : #fff!important;
+}
+
+td a strong {
+  margin-top : 20px!important;
+}
+
+*[bgcolor="silver"] {
+  color            : white!important;
+  background-color : rgb(51, 102, 153)!important;
+}
+
+*[bgcolor="silver"] a {
+  color : white!important;
+}
+
+.SMALL1 {
+  text-align : center!important;
+}
+
+td[bgcolor="#336699"] {
+  z-index          : 9999999999!important;
+  position         : fixed!important;
+  top              : 230px!important;
+  left             : -180px!important;
+  padding-right    : 30px!important;
+  padding-left     : 30px!important;
+  border           : 1px solid rgba(185, 185, 185, 0.33)!important;
+  background-color : white!important;
+  box-shadow       : 5px 8px 8px -6px #777!important;
+}
+
+td[bgcolor="#336699"]:hover {
+  position      : fixed!important;
+  top           : 230px!important;
+  left          : 0px!important;
+  padding-right : 30px!important;
+}
+
 .sidebarHeading {
-    color: #fff!important;
-    background-color: #336699!important;
-    background-image: none!important;
-    border: 1px solid #fff!important;
+  color            : #fff!important;
+  border           : 1px solid #fff!important;
+  background-image : none!important;
+  background-color : #336699!important;
+}
 
+*[bgcolor="#000000"] {
+  background-color : #336699!important;
 }
-*[bgcolor="#000000"]{
-    background-color: #336699!important;
-}
+
 .hintBox {
-    background-color: #fff!important;
-    border: none!important;
-    font-style: italic!important;
-    font-size: 12px;
-    color: #336699!important;
+  color            : #336699!important;
+  border           : none!important;
+  background-color : #fff!important;
+  font-size        : 12px;
+  font-style       : italic!important;
 }
-*[name="SNPlogo"]{
-  display: block!important;
-    margin: auto!important;
+
+*[name="SNPlogo"] {
+  display : block!important;
+  margin  : auto!important;
 }
-.ncbi-alerts, .ncbi-alerts p {
-    background-color: #efefef!important;
+
+.ncbi-alerts,
+.ncbi-alerts p {
+  background-color : #efefef!important;
 }
+
 .ncbi-alerts {
-    padding:0px!important;
+  padding : 0px!important;
 }
-div[align="center"]:first-of-type > table:nth-child(2) table[border="0"]:first-child{
-margin: auto!important;
-border: 1px solid rgba(185, 185, 185, 0.33)!important;
-box-shadow:5px 8px 8px -6px #777!important;
-margin-bottom:50px!important;
+
+div[align="center"]:first-of-type > table:nth-child(2) table[border="0"]:first-child {
+  margin        : auto!important;
+  margin-bottom : 50px!important;
+  border        : 1px solid rgba(185, 185, 185, 0.33)!important;
+  box-shadow    : 5px 8px 8px -6px #777!important;
 }
+
 div[align="center"] {
-  padding-left: 10px!important;
+  padding-left : 10px!important;
 }
-div[align="center"]:first-of-type > table:first-child td:nth-child(2){
-  display: block!important;
-  background-color: white!important;
-  margin-left:10%!important;
-  }
-  div[align="center"]:first-of-type > table:first-child tr:nth-child(1){
-  background-color: white!important;
-  }
-  *[style*="background-color:#f1f1f1"]{
-      background-color: #fff!important;
-  }
-*[bgcolor="#f1f1f1"]{
-        background-color: rgba(240, 240, 240, 0.50)!important;
+
+div[align="center"]:first-of-type > table:first-child td:nth-child(2) {
+  display          : block!important;
+  margin-left      : 10%!important;
+  background-color : white!important;
+}
+
+div[align="center"]:first-of-type > table:first-child tr:nth-child(1) {
+  background-color : white!important;
+}
+
+*[style*="background-color:#f1f1f1"] {
+  background-color : #fff!important;
+}
+
+*[bgcolor="#f1f1f1"] {
+  background-color : rgba(240, 240, 240, 0.50)!important;
 }

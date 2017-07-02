@@ -1,49 +1,54 @@
-      /* pour gene */
-      .rprt-section-header {
-        background: #3db2e1!important;
-        border-bottom: 0px!important;
-        background-image: none!important;
-        box-shadow: 0 7px 6px -6px #777!important;
-      }
-      .rprt-section-header h2 a{
-        color: white!important;
-      }
-      #sidecontent_1_pullout{
-      top:140px!important;
+/* gene */
 
-      }
-      .sidecontentpullout_local {
-        background-color: #157aab!important;
-        border-bottom-left-radius: 0px!important;
-        border-top-left-radius: 0px!important;
-      }
-      dt {
-        padding-top: 10px!important;
-      }
+.rprt-section-header {
+  border-bottom    : 0px!important;
+  background       : #3db2e1!important;
+  background-image : none!important;
+  box-shadow       : 0 7px 6px -6px #777!important;
+}
 
-      dd {
-        padding-top: 10px!important;
-        color: #222!important;
-        font-family: 'Roboto', sans-serif!important;
-        font-size: 15px!important;
+.rprt-section-header h2 a {
+  color : white!important;
+}
 
-        text-align: justify!important;
+#sidecontent_1_pullout {
+  top : 140px!important;
+}
 
-        -webkit-hyphens: auto;
-        -moz-hyphens: auto;
-      hyphens: auto;
-      }
-      .rprt-header h1{
-        color: #375E97!important;
-        font-family: 'Roboto', sans-serif!important;
-        font-size: 25px!important;
-        font-weight: 300!important;
-        line-height: 40px!important;
-        margin: 0 0 16px!important;
-      }
-      .rprt-section-body p.withnote {
-        text-align: center!important;
-        }
-      .gene-reference-sequences ol, .gene-reference-sequences .annot {
-        margin-bottom: 50px!important;
-      }
+.sidecontentpullout_local {
+  border-top-left-radius    : 0px!important;
+  border-bottom-left-radius : 0px!important;
+  background-color          : #157aab!important;
+}
+
+dt {
+  padding-top : 10px!important;
+}
+
+dd {
+  padding-top : 10px!important;
+  color       : #222!important;
+  text-align  : justify!important;
+  font-family : 'Roboto',
+                sans-serif!important;
+  font-size   : 15px!important;
+}
+
+.rprt-header h1 {
+  margin      : 0 0 16px!important;
+  color       : #375E97!important;
+  font-family : 'Roboto',
+                sans-serif!important;
+  font-size   : 25px!important;
+  font-weight : 300!important;
+  line-height : 40px!important;
+}
+
+.rprt-section-body p.withnote {
+  text-align : center!important;
+}
+
+.gene-reference-sequences .annot,
+.gene-reference-sequences ol {
+  margin-bottom : 50px!important;
+}
