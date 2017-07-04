@@ -24,7 +24,7 @@ RookieUI is **not** developed by NCBI.
 
 
 - **On Firefox:**
-	- Install it with the installation file [Mozilla addon] (The file will be on the firefox store soon).
+	- Install via [Mozilla addon]
 	- or go on ```about:debugging```, click on the “Load Temporary Add-on” and select any file of the project.
 
 
@@ -48,5 +48,5 @@ I hope you will like it and that you can help me with your feedback.
    [chrome://extensions]: <chrome://extensions>
    [Chrome webstore]: <https://chrome.google.com/webstore/detail/ncbi-rookie-ui/abpchaihggmpmpldeofeigihpmiejoba>
    [about:debugging]: <about:debugging>
-   [Mozilla addon]: <https://github.com/pierrejacquet/NCBI-RookieUI/blob/master/xpi-files/ncbi_rookieui.xpi?raw=true>
+   [Mozilla addon]: <https://addons.mozilla.org/fr/firefox/addon/rookieui/>
    
