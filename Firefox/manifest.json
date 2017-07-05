@@ -7,12 +7,7 @@
   "author": "Pierre JACQUET",
   "page_action": {
      "default_icon": "ROOKIE16.png"
-   },
-  "applications": {
-  "gecko": {
-     "id": "ncbi@rookieui.com",
-    "update_url": "https://raw.githubusercontent.com/pierrejacquet/NCBI-RookieUI/master/xpi-files/updates.json"
-  }
+   }
 },
   "homepage_url": "https://github.com/pierrejacquet/NCBI-RookieUI",
   "content_scripts": [{
