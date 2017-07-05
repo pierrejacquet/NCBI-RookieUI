@@ -15,3 +15,8 @@
 .asm_comment_visible{
   text-align: justify!important;
 }
+.facet_hide {
+    display: none !important;
+    visibility: hidden !important;
+    height: 0px !important;
+}
