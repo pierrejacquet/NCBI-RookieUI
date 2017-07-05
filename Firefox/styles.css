@@ -542,3 +542,12 @@ font-size: 10px!important;
 text-align: right!important;
 line-height: 15px!important;
 }
+
+/*feedback*/
+#crowd-shortcut{
+  z-index: 9999999999999999999999!important;
+}
+script + div[style*="top: 31%"]{
+top:240px!important;
+z-index: 99999999999999999999999!important;
+}

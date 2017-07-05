@@ -33,6 +33,7 @@ if($('.headerpad').length == 0){
 
     $('body').append('<button id="myBtn"><img src="'+fullURLrookiemax+'" class="rookieui"></img></button>');
     $('body').append('<div id="myModal" class="modal"><div class="modal-content"><span class="close">&times;</span><p>Theme:</p><div id="colors"><br><div class="box"id="blue" data-theme='+cssblue+'></div><div class="box"id="orange" data-theme='+cssorange+'></div><div class="box"id="indigo" data-theme='+cssindigo+'></div><div class="box"id="green" data-theme='+cssgreen+'></div></div><p class="creditPJ">NCBI RookieUI<br>by Pierre JACQUET</p></div></div>');
+	  $('body').append("<script>window._urq = window._urq || [];_urq.push(['initSite', '83ab8278-6da5-4c84-9e85-b6150274a15c']);(function() {var ur = document.createElement('script'); ur.type = 'text/javascript'; ur.async = true;ur.src = ('https:' == document.location.protocol ? 'https://cdn.userreport.com/userreport.js' : 'http://cdn.userreport.com/userreport.js');var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ur, s);})();</script>");
     load=0;
 }
 
@@ -129,6 +130,17 @@ span.onclick = function() {
 window.onclick = function(event) {
     if (event.target == modal) {
         modal.style.display = "none";
+    }
+
+
+    if($('#myModal').css('display') == 'none'){
+        $('#crowd-shortcut').hide().css("visibility", "hidden");
+    }
+    if($('#myModal').css('display') == 'block'){
+        $('#crowd-shortcut').show().css("visibility", "visible");;
+    }
+    if($('__bpnFeedbackPopup').css('display') == 'block'){
+        $('#myModal').show().hide().css("visibility", "hidden");
     }
 }
 });
