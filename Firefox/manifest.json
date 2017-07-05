@@ -2,13 +2,12 @@
   "manifest_version": 2,
 
   "name": "NCBI RookieUI",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A new fresh style for NCBI website",
   "author": "Pierre JACQUET",
   "page_action": {
      "default_icon": "ROOKIE16.png"
-   }
-},
+   },
   "homepage_url": "https://github.com/pierrejacquet/NCBI-RookieUI",
   "content_scripts": [{
     "css": ["styles.css","font-awesome.min.css"],
